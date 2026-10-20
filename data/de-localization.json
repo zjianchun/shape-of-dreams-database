@@ -1,0 +1,2343 @@
+{
+  "version": "1.4.0",
+  "locale": "de",
+  "counts": {
+    "travelers": 9,
+    "achievements": 85,
+    "essences": 93,
+    "memories": 132,
+    "stars": 259
+  },
+  "travelers": {
+    "Hero_Aurena": {
+      "name": "Aurena",
+      "subtitle": "Verstoßene Weise der Mondarkanum-Gesellschaft",
+      "description": "Aurena ist eine Weise der Mondarkanum-Gesellschaft, die wegen der Erforschung verbotenen Wissens verbannt wurde. Sie ist eine Kampfheilerin, die ihre eigene Lebenskraft opfert, um mächtige Zauber zu wirken."
+    },
+    "Hero_Bismuth": {
+      "name": "Bismuth",
+      "subtitle": "Ein Körper, zwei Seelen",
+      "description": "Bismuth ist die Verschmelzung eines leeren, namenlosen Zauberbuchs mit einem gewöhnlichen blinden Mädchen. Sie bewegt sich flink und teilt kontinuierlichen Fernkampfschaden aus."
+    },
+    "Hero_Husk": {
+      "name": "Shell",
+      "subtitle": "Erschaffene Assassine, Holzpuppe mit Seele",
+      "description": "Shell ist das vollendete Werkzeug des Tötens, unfähig zu Gefühlen oder Schmerz. Eine Assassine, die feindliche Schwachstellen mit unberechenbaren Manövern ausnutzt und Ziele hocheffizient ausschaltet."
+    },
+    "Hero_Lacerta": {
+      "name": "Lacerta",
+      "subtitle": "Ehemaliger Scharfschütze, Jägerechse",
+      "description": "Lacerta ist ein ehemaliger Scharfschütze der königlichen Garde und ein Jäger, der mit Schusswaffen und Schießpulver vertraut ist. Er eliminiert Feinde bevorzugt aus sicherer Distanz."
+    },
+    "Hero_Mist": {
+      "name": "Mist",
+      "subtitle": "Duellentin des Hauses Grünensilber",
+      "description": "Mist ist eine tapfere Duellentin von edler Abstammung. Ihr agiler Kampfstil ermöglicht es ihr, tödlichen Angriffen auszuweichen und Gegner blitzschnell zur Strecke zu bringen."
+    },
+    "Hero_Nachia": {
+      "name": "Nachia",
+      "subtitle": "Geistermagierin der Traumwelt, Hüterin des Ätherischen Waldes",
+      "description": "Nachia ist eine Geistermagierin der Traumwelt und Hüterin des Ätherischen Waldes. Sie beschwört Geisterbegleiter herbei, die an ihrer Seite kämpfen und stetigen Schaden zufügen."
+    },
+    "Hero_Vesper": {
+      "name": "Vesper",
+      "subtitle": "Gnadenloser Inquisitor des Ordens der Heiligen Flamme",
+      "description": "Vesper ist der Anführer des Ordens der Heiligen Flamme und ein unerbittlicher Inquisitor. Er kämpft an vorderster Front im Nahkampf, hält Gegner in Schach und teilt schweren Schaden aus."
+    },
+    "Hero_Yubar": {
+      "name": "Yubar",
+      "subtitle": "Aus Träumen geboren, Gott der Sterne",
+      "description": "Yubar ist ein fantastisches Wesen, das aus den Träumen entstanden ist – eine Gottheit, die über das Erschaffen und Vergehen der Sterne wacht. Er entfesselt mächtige Magie aus der Distanz."
+    },
+    "Hero_Cetus": {
+      "name": "Cetus",
+      "subtitle": "Das Seeungeheuer, das an Land ging",
+      "description": "Ein Fernkämpfer, der das Schlachtfeld mit eisiger Kälte beherrscht: Er sammelt Kälte-Stapel für verheerende Schadensausbrüche, erschafft Gletscher und Frostzonen zur Gegnerkontrolle und verleiht sich und Verbündeten Schilde. Freigeschaltet durch Graben im Schneehaufen.",
+      "caveat": "Wortlaut der offiziellen v1.4-Ankündigung. Die Basis-Datenbank entstand vor dem Patch, daher werden seine genauen Werte bis zum nächsten Datenabgleich nicht geschätzt."
+    }
+  },
+  "achievements": {
+    "ACH_BALANCE_FOREVER_LOST": {
+      "name": "Für immer verlorenes Gleichgewicht",
+      "description": "Kämpfe gleichzeitig gegen die Wächter-Zwillinge und siege."
+    },
+    "ACH_BLACKCAT_DEJAVU": {
+      "name": "Déjà-vu",
+      "description": "Streichle die Katze."
+    },
+    "ACH_BURNING_LOVE": {
+      "name": "Brennende Liebe",
+      "description": "Erhalte Pyranas Liebe."
+    },
+    "ACH_CHAOTIC_GOOD": {
+      "name": "Chaos-Gut",
+      "description": "Verwende insgesamt 5 legendäre Chaos-Effekte."
+    },
+    "ACH_DESPERATE_HERO": {
+      "name": "Verzweifelter Held",
+      "description": "Töte 30 Gegner in Folge, während deine LP 40% oder weniger beträgt."
+    },
+    "ACH_ELECTRIC_TYPE": {
+      "name": "Elektrisch",
+      "description": "Verursache 1,500 oder mehr einzelne Schaden."
+    },
+    "ACH_ELEMENTALS_101": {
+      "name": "Einführung in die Elementarkunde",
+      "description": "Töte 70 Gegner, die von allen 4 Elementen betroffen sind."
+    },
+    "ACH_EMPTY_CANVAS": {
+      "name": "Leere Leinwand",
+      "description": "Betritt insgesamt 2x den weißen Traum."
+    },
+    "ACH_ETERNAL_REST": {
+      "name": "Ewige Ruhe",
+      "description": "Führe insgesamt 50 finale Treffer mit dem Basisangriff gegen Seelenschwertkämpfer aus."
+    },
+    "ACH_EVERYONE_LETS_NOT_PANIC": {
+      "name": "Bleib ruhig und gelassen",
+      "description": "Töte insgesamt 8 Helden-Boss(e) mit 25% oder weniger LP."
+    },
+    "ACH_FIGHTING_COLD_WITH_COLD": {
+      "name": "Kälte mit Kälte bekämpfen",
+      "description": "Töte den Schneegipfel-König, während du 4 Erinnerungen mit Kälteschaden besitzt."
+    },
+    "ACH_FLEXIBLE_DIET": {
+      "name": "Flexible Ernährung",
+      "description": "Wiederhole in einem einzigen Abenteuer 10x, dass deine LP unter 40% fällt und dann über 75% ansteigt."
+    },
+    "ACH_FOUR_OF_A_KIND": {
+      "name": "Vierling",
+      "description": "Siege mit 4 Erinnerungen derselben Art."
+    },
+    "ACH_GOD_PROTECTS_ME": {
+      "name": "Gott beschützt mich",
+      "description": "Besuche in einem einzigen Abenteuer 4x von Jägern besetzte Orte, während deine Bedrohungsstufe 5 beträgt."
+    },
+    "ACH_HEAVIER_THAN_ATLAS": {
+      "name": "Schwerer als der Taishan-Berg",
+      "description": "Erreiche 3,000 max. LP."
+    },
+    "ACH_IN_CARNAGE_I_BLOOM": {
+      "name": "In der Gemetzel erblühe ich",
+      "description": "Verstärkere in einem einzigen Abenteuer 20x Erinnerungen, die Dunkelheitsschaden verursachen."
+    },
+    "ACH_JUST_STAY_STILL": {
+      "name": "Bleib schön still",
+      "description": "Besitze gleichzeitig 4 aktive Erinnerungen, die Betäubung, Bewegungsunfähigkeit oder Rückstoß verursachen."
+    },
+    "ACH_KYAAAAAA": {
+      "name": "KYAAAAAA!!",
+      "description": "Überlebe einen einzelnen Schaden, der 70% oder mehr deiner max. LP verursacht, während du keinen Schild hast."
+    },
+    "ACH_LOYAL_CUSTOMER": {
+      "name": "Stammkunde",
+      "description": "Aktiviere den Schrein der Führung 15x in einem einzigen Abenteuer."
+    },
+    "ACH_MASTER_OF_MYSTIC_ARTS": {
+      "name": "Meister der mystischen Künste",
+      "description": "Besitze gleichzeitig 4 aktive Erinnerungen mit einer Abklingzeit von 3 Sek. oder weniger."
+    },
+    "ACH_ME_LOVE_GLOWY_STUFF": {
+      "name": "Ooh, so glitzernd",
+      "description": "Siege mit 4 aktiven Licht-Erinnerungen."
+    },
+    "ACH_MIDAS_HIMSELF": {
+      "name": "Midas Verkörperung",
+      "description": "Besitze 6,000 Gold."
+    },
+    "ACH_MINE_AND_CRAFT": {
+      "name": "Bergbau und Handwerk",
+      "description": "Zerstöre 3 Pechschwarzes Erz."
+    },
+    "ACH_NOVICE_TREASURE_HUNTER": {
+      "name": "Schatzjäger-Lehrling",
+      "description": "Öffne zum ersten Mal eine Schatztruhe."
+    },
+    "ACH_OMEGA_POINT": {
+      "name": "Omega-Punkt",
+      "description": "Siege, nachdem du während eines Abenteuers nur eine Erinnerungsart gewirkt hast."
+    },
+    "ACH_PEW_PEW_PEW": {
+      "name": "Peng Peng Peng!",
+      "description": "Wende insgesamt 200 positive Effekte auf Verbündete (nicht auf dich selbst) an."
+    },
+    "ACH_PRAISE_THE_SUN": {
+      "name": "Preiset die Sonne!",
+      "description": "Wende insgesamt 3,000 Feuer-Stapel auf Gegner an."
+    },
+    "ACH_PYROMANIA": {
+      "name": "Pyromane",
+      "description": "Töte 250x brennende Gegner."
+    },
+    "ACH_REAP_WHAT_YOU_SOW": {
+      "name": "Was man sät, das wird man ernten",
+      "description": "Aktiviere den Schrein der Zerlegung insgesamt 12x."
+    },
+    "ACH_RUN_ME_LIKE_A_RACE_HORSE": {
+      "name": "Whatever It Takes",
+      "description": "Töte einen Gegner, während er 30 oder mehr Feuer-Stapel hat."
+    },
+    "ACH_SHIELD_BATTERY": {
+      "name": "Schildbatterie",
+      "description": "Reduziere insgesamt 20,000 Schaden von Gegnern durch Schilde."
+    },
+    "ACH_SHOOT_FOR_THE_MOON": {
+      "name": "Schieß zum Mond",
+      "description": "Führe 80 finale Treffer gegen weit entfernte Gegner aus."
+    },
+    "ACH_SNAKE_IN_THE_GRASS": {
+      "name": "Schlange im Gras",
+      "description": "Stehle 12x den Rucksack, den der Händler kurz unbeaufsichtigt gelassen hat."
+    },
+    "ACH_SUPPORT_MAIN": {
+      "name": "Support-Meister",
+      "description": "Besitze gleichzeitig 4 aktive Erinnerungen mit Heileffekten."
+    },
+    "ACH_SUSPICIOUSLY_WEALTHY_TRAVELER": {
+      "name": "Verdächtig reicher Reisender",
+      "description": "Gib insgesamt 2,000 Gold aus."
+    },
+    "ACH_TASTE_OF_THEIR_OWN_MEDICINE": {
+      "name": "Selbst schuld",
+      "description": "Töte den Dämon des Waldes mit den Krallen."
+    },
+    "ACH_TEKKAI": {
+      "name": "Eisenbarren",
+      "description": "Erhalte einen Schild, der 300% deiner max. LP entspricht."
+    },
+    "ACH_THEYRE_JUST_BIG_CATS": {
+      "name": "Nur eine etwas größere Katze",
+      "description": "Führe insgesamt 25 finale Treffer mit Blitz gegen den Donnertiger aus."
+    },
+    "ACH_THE_EIGHTH_TROPHY": {
+      "name": "Die achte Trophäe",
+      "description": "Erhalte 8 einzigartige Erinnerungen oder Essenzen vom Helden-Boss."
+    },
+    "ACH_THOUSAND_THUNDERS": {
+      "name": "Tausend Donner",
+      "description": "Treffe insgesamt 1,000 krit. Treffer."
+    },
+    "ACH_THROUGH_TIME_AND_SPACE": {
+      "name": "Transzendente Geschwindigkeit",
+      "description": "Erreiche ein Angriffstempo von 6 pro Sek."
+    },
+    "ACH_TRUE_SUPPORT": {
+      "name": "Wahrer Supporter",
+      "description": "Regeneriere die gesamte LP eines Reisenden mit 30% oder weniger LP innerhalb von 1 Sek."
+    },
+    "ACH_ULTRA_RAPID_FIRE": {
+      "name": "Ultra Rapid Fire",
+      "description": "Wirke innerhalb von 8 Sek. 12 Erinnerungen."
+    },
+    "ACH_WHOS_THE_PREY_NOW": {
+      "name": "Wer ist jetzt die Beute?",
+      "description": "Töte den Jäger 70x."
+    },
+    "ACH_DECEIVING_LOOKS": {
+      "name": "Trügerische Schönheit",
+      "description": "Töte 10 Helden-Boss(e) mit Aurena."
+    },
+    "ACH_HORNS_FEATHERS_AND_GOLD": {
+      "name": "Horn, Feder und Gold",
+      "description": "Regeneriere insgesamt 25,000 LP von dir selbst oder Verbündeten."
+    },
+    "ACH_IMMORTALITY_ACHIEVED": {
+      "name": "Unsterblichkeit erreicht",
+      "description": "Wirke mit Aurena 9 Mal Goldene Explosion innerhalb von 5 Sek."
+    },
+    "ACH_OVERFLOWING_HEALS": {
+      "name": "Überfließende Heilung",
+      "description": "Regeneriere mit Aurena deine gesamten LP in einem einzigen Einsatz von Gefährliche Theorie, während deine LP unter 40% liegt."
+    },
+    "ACH_DOUBLE_VISION": {
+      "name": "Doppelte Sicht",
+      "description": "Verursache mit Bismuth insgesamt 250,000 Dunkelheitsschaden an Gegnern."
+    },
+    "ACH_LIKE_A_BREEZE": {
+      "name": "Ein Kinderspiel",
+      "description": "Töte einen Helden-Boss mit Bismuth, ohne Schaden zu erleiden."
+    },
+    "ACH_LOOK_RAINBOW": {
+      "name": "Schau! Ein Regenbogen!",
+      "description": "Betritt den weißen Traum als Bismuth."
+    },
+    "ACH_ONCE_UPON_A_TIME": {
+      "name": "Es war einmal",
+      "description": "Halte das Bewegungstempo eines beliebigen Reisenden für 3 Sek. bei 900 oder höher."
+    },
+    "ACH_REACTIVATED": {
+      "name": "Reaktivierung",
+      "description": "Hauche der Holzpuppe eine Seele ein."
+    },
+    "ACH_BFR_9000": {
+      "name": "BFR 9000",
+      "description": "Erreiche 120 AK mit Lacerta."
+    },
+    "ACH_JUST_LIKE_THE_OLD_DAYS": {
+      "name": "Eine Wärme von spürbarer Schwere",
+      "description": "Töte 5x einen Helden-Boss mit Lacerta."
+    },
+    "ACH_UNTOUCHABLE": {
+      "name": "Unantastbar",
+      "description": "Töte einen Helden-Boss mit Lacerta, während deine LP bei 85% oder höher ist."
+    },
+    "ACH_GO_WITH_THE_FLOW": {
+      "name": "Reibungslos",
+      "description": "Töte 60 Gegner in Folge mit Mist, ohne Schaden zu nehmen."
+    },
+    "ACH_KING_OF_THE_ELEMENTALS": {
+      "name": "König der Elementare",
+      "description": "Töte 75x beliebige Elementar mit Nebel."
+    },
+    "ACH_VINE_IN_CREVICES": {
+      "name": "Dornranken zwischen Felsspalten",
+      "description": "Töte Belphomet innerhalb von 2 Min. nach Abenteuerbeginn mit Nebel."
+    },
+    "ACH_FULL_MOON": {
+      "name": "Vollmond",
+      "description": "Siege insgesamt 2x mit Nachia."
+    },
+    "ACH_SIBLING_FIGHT": {
+      "name": "Familienstreit",
+      "description": "Töte den Dämon des Waldes innerhalb von 6 Sek., nachdem du ihm als Nachia zum ersten Mal Schaden zugefügt hast."
+    },
+    "ACH_THE_CYCLE_OF_REBIRTH": {
+      "name": "Reinkarnation",
+      "description": "Töte einen der Wächter der Vergänglichkeit mit Nachia, ohne Schaden zu erleiden."
+    },
+    "ACH_THE_TRUE_FOREST_SOVEREIGN": {
+      "name": "Der wahre Herrscher des Waldes",
+      "description": "Töte den Dämon des Waldes insgesamt 12x."
+    },
+    "ACH_HOTTER_FIRE_WINS": {
+      "name": "Heißeres Feuer gewinnt",
+      "description": "Besiege den brennenden Riesen als Vesper mit mindestens 3 Feuererinnerungen."
+    },
+    "ACH_MASTER_OF_HAMMER": {
+      "name": "Meister des Hammers",
+      "description": "Führe mit Vesper innerhalb von 5 Sek. 9 normale Angriffe aus."
+    },
+    "ACH_PEAK_PERFORMANCE": {
+      "name": "Maximale Leistung",
+      "description": "Besitze gleichzeitig 3 Ansturm- oder Teleportations-Erinnerungen als Vesper."
+    },
+    "ACH_RAGE_WITHOUT_BOUNDS": {
+      "name": "Grenzenlose Wut",
+      "description": "Erreiche die Fragmente des Nachthimmels."
+    },
+    "ACH_NIGHT_OF_COUNTING_THE_STARS": {
+      "name": "Nacht des Sternenzählens",
+      "description": "Erreiche mit Yubar eine Zauberkraft von 140."
+    },
+    "ACH_ODE_TO_THE_STARS": {
+      "name": "Ode an die Sterne",
+      "description": "Erreiche 55 AK mit Yubar."
+    },
+    "ACH_PEACE_AMID_THE_STORM": {
+      "name": "Frieden inmitten des Sturms",
+      "description": "Verursache mit Yubar insgesamt 400,000 Lichtschaden an Gegnern."
+    },
+    "ACH_PURE_IMAGINATION": {
+      "name": "Reine Fantasie",
+      "description": "Erhalte insgesamt 450 Traumstaub."
+    },
+    "ACH_BARE_SKIN_SUPREMACY": {
+      "name": "Nackte Haut genügt",
+      "description": "Siege 2 Mal, ohne jemals einen Schild zu erhalten oder zu gewähren."
+    },
+    "ACH_EMBRACE_MORTALITY": {
+      "name": "Die Sterblichkeit annehmen",
+      "description": "Werde in einem einzigen Abenteuer 6x verflucht."
+    },
+    "ACH_EMPRESS_OF_PAIN": {
+      "name": "Kaiserin des Schmerzes",
+      "description": "Werde insgesamt 3 Mal in der 5. Welt oder später verflucht."
+    },
+    "ACH_FEELS_LIKE_HOME": {
+      "name": "Fühlt sich wie Zuhause an",
+      "description": "Besuche in einem einzigen Abenteuer 12 von Jägern besetzte Räume."
+    },
+    "ACH_HUNTERS_WHAT_HUNTERS": {
+      "name": "Jäger? Welche Jäger?",
+      "description": "Siege insgesamt 3x, ohne einen einzigen Jäger zu töten."
+    },
+    "ACH_MASTER_OF_EVASION": {
+      "name": "Meister der Ausweichkunst",
+      "description": "Schließe den Wald der Unruhe ab, ohne Schaden von Gegnern zu erleiden."
+    },
+    "ACH_M_M_M_MONSTER_KILL": {
+      "name": "M-M-M-MONSTER KILL!",
+      "description": "Führe 16 oder mehr Gegner finale Treffer mit einer einzigen Erinnerungswirkung."
+    },
+    "ACH_NO_NEED_FOR_YOUR_HELP": {
+      "name": "Brauche deine Hilfe nicht",
+      "description": "Siege insgesamt 2x, ohne den Schrein der Führung zu benutzen."
+    },
+    "ACH_PRAYER_FOR_THE_DREAMERS": {
+      "name": "Gebet für die Träumer",
+      "description": "Betritt 12 neue Orte in einem einzigen Abenteuer, während deine Lebenspunkte bei 40% oder weniger liegen."
+    },
+    "ACH_VIVID_DREAM": {
+      "name": "Lebhafter Traum",
+      "description": "Betritt den weißen Traum im Albtraum-Schwierigkeitsgrad."
+    },
+    "ACH_WHY_YOU_BULLY_ME": {
+      "name": "Warum mobbst du mich? :(",
+      "description": "Erschrecke oder töte den Händler insgesamt 20x."
+    },
+    "ACH_WRIST_FRIENDLY_BUILD": {
+      "name": "Handgelenk-freundlicher Build",
+      "description": "Siege mit 4 aktiven Erinnerungen, die eine Abklingzeit von 6 Sekunden oder mehr haben."
+    },
+    "ACH_CLEAR_MIND": {
+      "name": "Klarer Verstand",
+      "description": "Besiege insgesamt 100 Feinde mit Trugbild-Haut."
+    },
+    "ACH_NOT_EVEN_A_SCRATCH": {
+      "name": "Nur ein Kratzer",
+      "description": "Überlebe insgesamt 30 Sekunden lang, während du unter 10 oder mehr Verbrennungen oder 3 oder mehr verschiedenen Elementareffekten leidest."
+    }
+  },
+  "essences": {
+    "Gem_C_CamillasGiftRuined": {
+      "name": "Camillas Geschenk (Zerbrochen)",
+      "description": "Dieser Edelstein wurde durch zu viel erlittenen Schaden zerstört."
+    },
+    "Gem_C_Charcoal": {
+      "name": "Essenz der Holzkohle",
+      "description": "Wenn diese Erinnerung einen Gegner trifft, feuert sie eine Kohlescherbe ab, die 60% Schaden verursacht. Brennt das Ziel bereits, verursacht sie stattdessen 100% Feuerschaden ."
+    },
+    "Gem_C_Confidence": {
+      "name": "Essenz der Zuversicht",
+      "description": "Der durch diese Erinnerung an nahen Gegnern verursachte Schaden ist erhöht um 40% ."
+    },
+    "Gem_C_Efficiency": {
+      "name": "Essenz der Effizienz",
+      "description": "Diese Erinnerung erhält 36 Erinnerungstempo, was ihre Abklingzeit um 26% verringert ."
+    },
+    "Gem_C_Guidance": {
+      "name": "Essenz der Führung",
+      "description": "Die Heilung dieser Erinnerung ist erhöht um 40% . 30% of den excess Heilung from this Erinnerung is in eine Barriere umgewandelt, die 2 Sekunden lang anhält."
+    },
+    "Gem_C_Lethality": {
+      "name": "Essenz der Tödlichkeit",
+      "description": "Der Schaden dieser Erinnerung gegen Gegner mit 70% oder mehr Lebenskraft ist erhöht um 60% ."
+    },
+    "Gem_C_Love": {
+      "name": "Essenz der Liebe",
+      "description": "Wenn diese Erinnerung Lebenskraft wiederherstellt oder einem Verbündeten eine Barriere gewährt, their Bewegungstempo und Angriffsgeschwindigkeit erhöhen um 16% für 2 Sekunden.Der effect wird verringert um 50% when applied to dich selbst."
+    },
+    "Gem_C_Quicksilver": {
+      "name": "Essenz des Quecksilbers",
+      "description": "Das Wirken dieser Erinnerung oder das Verursachen von Feuerschaden erhöht das Bewegungstempo um 30% , gradually returning to normal über 2.5 Sekunden."
+    },
+    "Gem_C_Regeneration": {
+      "name": "Essenz der Regeneration",
+      "description": "Wird diese Erinnerung im Kampf gewirkt, stellt sie deine Lebenskraft her um 51 über 5 Sekunden."
+    },
+    "Gem_C_Responsibility": {
+      "name": "Essenz der Verantwortung",
+      "description": "Alle 8 Sekunden wird das Wirken dieser Erinnerung verstärkt. 1.2 seconds after den verstärkten Zauber, it verursacht 400% Schaden aufgeteilt auf alle von diesem Zauber getroffenen Gegner."
+    },
+    "Gem_C_Sharp": {
+      "name": "Essenz der Schärfe",
+      "description": "Das Wirken dieser Erinnerung fires 5 arrows das deal 90% Schaden to random Gegner."
+    },
+    "Gem_C_Shatter": {
+      "name": "Essenz der Zersplitterung",
+      "description": "Alle 8 Sekunden, den Wirken dieser Erinnerung is empowered. Schaden verursacht an Gegner um den verstärkten Zauber ist erhöht um 40% . If it verursacht Lichtschaden, it ist erhöht um 72% ."
+    },
+    "Gem_C_Sulfur": {
+      "name": "Essenz des Schwefels",
+      "description": "Alle Schaden verursacht durch this Erinnerung ist erhöht um 15% und converted to Feuerschaden. Deine Feuerschaden over time ist erhöht um 50% ."
+    },
+    "Gem_C_Talc": {
+      "name": "Essenz des Talks",
+      "description": "Alle 8 Sekunden, den Wirken dieser Erinnerung is empowered. Der initial Schaden verursacht an each Gegner um den verstärkten Zauber ist erhöht um 400% ."
+    },
+    "Gem_C_Vengeance": {
+      "name": "Essenz der Vergeltung",
+      "description": "When du erleiden any Schaden, fire 2 blades das deal 93% + Bonus4% Schaden to nahen Gegnern. After taking Schaden, this Erinnerung's Schaden und Heilung are erhöht um 34% für 5 Sekunden."
+    },
+    "Gem_C_Void": {
+      "name": "Essenz der Leere",
+      "description": "After casting this Erinnerung, deine next Angriff within 4 seconds explodes, verursacht 150% Dunkelheitsschaden to den Ziel und nahen Gegnern."
+    },
+    "Gem_C_Wind": {
+      "name": "Essenz des Windes",
+      "description": "Das Wirken dieser Erinnerung increases Angriffsgeschwindigkeit um 33% für 5 Sekunden."
+    },
+    "Gem_E_Aftershock": {
+      "name": "Essenz des Nachbebens",
+      "description": "Das Wirken dieser Erinnerung releases a delayed shockwave das verursacht 200% + Bonus20% Kälteschaden to Gegner around du und betäubt them für 0.5 Sekunden. For each Gegner getroffen von this shockwave, du erhalte 4 Rüstung, up to a maximum of 22 Rüstung. When hitting a boss, du erhalte den maximum Rüstung. This Rüstung lasts until du cast this Erinnerung again."
+    },
+    "Gem_E_Apathy": {
+      "name": "Essenz der Apathie",
+      "description": "Alle Schaden verursacht durch den Reisender wird verringert um 25%. When this Erinnerung verursacht Kälteschaden to an Gegner, deine Defense erhöht sich um 22 für 5 Sekunden."
+    },
+    "Gem_E_Blossom": {
+      "name": "Essenz des Aufblühens",
+      "description": "This Erinnerung verursacht 70% less Schaden to Gegner. When it verursacht Schaden, it heilt a random nahen Verbündeten for 22% of den Schaden verursacht."
+    },
+    "Gem_E_Clemency": {
+      "name": "Essenz der Milde",
+      "description": "Restore deine Lebenskraft for 4% of den Schaden verursacht durch this Erinnerung."
+    },
+    "Gem_E_Crimson": {
+      "name": "Essenz des Karmesins",
+      "description": "Every 4th Standardangriffe becomes empowered, triggering a Crimson Explosion das verursacht 100% Dunkelheitsschaden to Gegner. Der explosion radius scales mit deine Kritische Trefferchance. Du stellt her 22% Lebenskraft for each Gegner getroffen von den explosion, erhöht um 100% if den Ziel is a Boss."
+    },
+    "Gem_E_Direness": {
+      "name": "Essenz der Verzweiflung",
+      "description": "Der lower deine Lebenskraft, den shorter den Abklingzeit of this Erinnerung. When deine Lebenskraft is at 50%, den Abklingzeit wird verringert um up to 55% ."
+    },
+    "Gem_E_Domination": {
+      "name": "Essenz der Beherrschung",
+      "description": "Erhöht Kritische Trefferchance um 20%. Jedes Mal du land a critical strike on an Gegner, deine Kritischer Treffer Schaden erhöht sich um 0.3%, stacking up to 20% ."
+    },
+    "Gem_E_Fangs": {
+      "name": "Essenz der Reißzähne",
+      "description": "Jeder 4. Standardangriff is a critical strike. When du land a critical strike, this Erinnerung's Abklingzeit wird verringert um 0.7 seconds und launches 2 Fangs at nahen Gegnern, die jeweils 60% Schaden."
+    },
+    "Gem_E_Fever": {
+      "name": "Essenz des Fiebers",
+      "description": "When this Erinnerung verursacht Feuerschaden to an Gegner, it infects them mit Fever. Enemies infected mit Fever explode after 2 seconds, verursacht 130% Feuerschaden to themselves und nahen Gegnern. For each Fire stack on den Ziel, den explosion radius erhöht sich um 30% und explosion Schaden erhöht sich um 10%."
+    },
+    "Gem_E_Flexibility": {
+      "name": "Essenz der Flexibilität",
+      "description": "Während diese Erinnerung auf Abklingzeit ist, 37% of Schaden erlitten is split über 4 Sekunden. This split Schaden wird verringert um 20%."
+    },
+    "Gem_E_Insensitivity": {
+      "name": "Essenz der Unempfindlichkeit",
+      "description": "Das Wirken dieser Erinnerung drops a bomb for every 2m du travel over den next 4 seconds. Each bomb explodes after a brief delay, verursacht 140% Feuerschaden to Gegner."
+    },
+    "Gem_E_Insight": {
+      "name": "Essenz der Einsicht",
+      "description": "When this Erinnerung verursacht any Schaden to an Gegner, it verursacht an additional 200% Lichtschaden to up to 3 Gegner und increases Erinnerungstempo um 20 für 5 Sekunden. Kann nur einmal alle 3 Sekunden ausgelöst werden."
+    },
+    "Gem_E_Inversion": {
+      "name": "Essenz der Inversion",
+      "description": "This Erinnerung's Abklingzeit erhöht sich um 15% , but it also verursacht 20% more Schaden to Gegner. Its elemental Schaden is inverted (Fire/Cold, Light/Dark)."
+    },
+    "Gem_E_Metal": {
+      "name": "Essenz des Metalls",
+      "description": "When du kill an Gegner, den Abklingzeit of this Erinnerung wird verringert um 1 seconds."
+    },
+    "Gem_E_Might": {
+      "name": "Essenz des Riesen",
+      "description": "Erhöht Maximale Lebenskraft um 270 . This Erinnerung's Schaden erhöht sich um 1% for every 70 points of deine Maximale Lebenskraft."
+    },
+    "Gem_E_Obsidian": {
+      "name": "Essenz des Obsidians",
+      "description": "Das Wirken dieser Erinnerung empowers deine next Angriff within 5 seconds. Der empowered Angriff verursacht 250% Dunkelheitsschaden to den Ziel und verringert this Erinnerung's Abklingzeit um 1 seconds."
+    },
+    "Gem_E_Omega": {
+      "name": "Essenz der Endgültigkeit",
+      "description": "Während diese Erinnerung nicht auf Abklingzeit ist, erhalte stacks of Finality every second up to 20 stacks. When stacks are present, this Erinnerung's Wirken ist verstärkt, erhöht Schaden um 5% per stack."
+    },
+    "Gem_E_Opportunity": {
+      "name": "Essenz der Gelegenheit",
+      "description": "Das Wirken dieser Erinnerung verringert den Abklingzeit of deine Dodge um 3 seconds. Kann nur einmal alle 8 Sekunden ausgelöst werden."
+    },
+    "Gem_E_OurStory_Completed": {
+      "name": "Unsere Geschichte (Vollendet!)",
+      "description": "Erhöht Angriffskraft und Zauberkraft um , und den effects of alle buffs from Distorting Rush um ."
+    },
+    "Gem_E_OurStory_Unfinished": {
+      "name": "Unsere Geschichte (In Arbeit)",
+      "description": "Quality erhöht sich um 50% every time du defeat 75 Gegner. It becomes completed when quality reaches 500%."
+    },
+    "Gem_E_Overload": {
+      "name": "Essenz der Überladung",
+      "description": "When du cast this Erinnerung, sacrifice 20% of deine current Lebenskraft to empower den cast. Der Schaden und Heilung verursacht durch den verstärkten Zauber are erhöht um 45% ."
+    },
+    "Gem_E_Pain": {
+      "name": "Essenz des Schmerzes",
+      "description": "Alle Schaden verursacht durch this Erinnerung verursacht 40% Area Schaden around den Ziel. This Area Schaden shares den elemental type mit den original Schaden."
+    },
+    "Gem_E_Predation": {
+      "name": "Essenz des Raubzugs",
+      "description": "This Erinnerung verursacht 40% increased Schaden to Bosse und Hunters. Defeating a Hunter drops 1 Orb of Power, während defeating a Boss drops 3. When du collect an Orb of Power, du erhalte 1 Angriffskraft, 1 Zauberkraft, or 5 Maximale Lebenskraft."
+    },
+    "Gem_E_Protection": {
+      "name": "Essenz des Schutzes",
+      "description": "Das Wirken dieser Erinnerung grants 40 Rüstung für 3 Sekunden, reducing Schaden erlitten und making du Unstoppable. Kann nur einmal alle 5 Sekunden ausgelöst werden."
+    },
+    "Gem_E_Reflex": {
+      "name": "Essenz der Reflexe",
+      "description": "When du erleiden any Schaden, unleash cold toward den nearest Gegner, verursacht 100% + Bonus4% Kälteschaden und knocking them back, then erhöhen deine Rüstung um 40 für 1.5 Sekunden."
+    },
+    "Gem_E_Thunder": {
+      "name": "Essenz des Donners",
+      "description": "Casting another Erinnerung or using Dodge grants 1 Thunder stack, up to 7 times. Das Wirken dieser Erinnerung consumes alle Thunder stacks, calling down lightning on nahen Gegnern once for each stack. Each lightning verursacht 117% Lichtschaden."
+    },
+    "Gem_E_Twilight": {
+      "name": "Essenz der Dämmerung",
+      "description": "Deine Standardangriffe are converted to Dunkelheitsschaden. When this Erinnerung verursacht Schaden to an Gegner mit 3 or more Dark stacks, consumes alle stacks to deal 54% Schaden per stack und heilen for 6 per stack."
+    },
+    "Gem_E_Umbra": {
+      "name": "Essenz des Schattens",
+      "description": "This memory's Schaden ist erhöht um 42% of deine Kritische Trefferchance. If den Schaden is Dunkelheitsschaden, Restore 6% of den Schaden verursacht as Lebenskraft."
+    },
+    "Gem_E_Virtuousness": {
+      "name": "Essenz der Tugend",
+      "description": "Der number of Aufladungen for this Erinnerung erhöht sich um 1 . Each 150% erhöhen in quality raises den number of Aufladungen um 1."
+    },
+    "Gem_L_CamillasGift": {
+      "name": "Camillas Geschenk",
+      "description": "Kann im Laden für Gold verkauft werden. Der price erhöht sich um jedes Mal du move to a next Welt. It breaks if deine Lebenskraft drops below 50% from Gegner Schaden."
+    },
+    "Gem_L_ChaosApple": {
+      "name": "Apfel der Zwietracht",
+      "description": "Jedes Mal du move through a Rift, this Erinnerung is temporarily transformed into a different random Erinnerung. Der transformed Erinnerung has no Abklingzeit, but can only be cast 4 times per room, und returns to den original Erinnerung when alle casts are used."
+    },
+    "Gem_L_DivineFaith": {
+      "name": "Göttlicher Glaube",
+      "description": "Jedes Mal du kill an Gegner mit this Erinnerung, erhalte a stack of Faith up to 75 stacks. For each stack of Faith, this Erinnerung's Schaden to Gegner und Heilung to Verbündete erhöht sich um 0.4%, und deine Maximale Lebenskraft erhöht sich um 4."
+    },
+    "Gem_L_Embertail": {
+      "name": "Glutrute",
+      "description": "Deine Angriffe ricochet to deal 100% Feuerschaden to a nahen Gegner. For each nahen Gegner engulfed in flames, this Erinnerung's Schaden und Heilung are erhöht um 8% und its Abklingzeit wird verringert um 8% . Deine Feuerschaden over time ist erhöht um 100%."
+    },
+    "Gem_L_HeartOfGold": {
+      "name": "Herz aus Gold",
+      "description": "Das Wirken dieser Erinnerung consumes 3% of deine Gold to empower den cast. Schaden und Heilung from den verstärkten Zauber erhöhen um 12% for every 100 Gold du have."
+    },
+    "Gem_L_MetalCrystal": {
+      "name": "Metallischer Kristall",
+      "description": "Der parts exposed to light glow mit surreal colors."
+    },
+    "Gem_L_Paranoia": {
+      "name": "Essenz der Paranoia",
+      "description": "When du erleiden any Schaden, this Erinnerung erhält 150 Erinnerungstempo für 6 Sekunden, reducing its Abklingzeit um 60% , but it is automatically cast on nahen Gegnern."
+    },
+    "Gem_L_Perfect": {
+      "name": "Vollkommenheit",
+      "description": "Erhöht Angriffskraft um 6 , Zauberkraft um 6 , Maximale Lebenskraft um 31 , Angriffsgeschwindigkeit um 9% , Kritische Trefferchance um 5% , und Erinnerungstempo um 9 ."
+    },
+    "Gem_L_PureWhite": {
+      "name": "Reines Weiß",
+      "description": "Alle 10 Sekunden, den Wirken dieser Erinnerung is empowered. Der verstärkten Zauber fires 3 projectiles, verursacht Lichtschaden equal to 20% of den initial Schaden verursacht an each Gegner. Der number of shots erhöht sich um den number of Light stacks on each Ziel."
+    },
+    "Gem_L_SolarEye": {
+      "name": "Auge der Sonne",
+      "description": "Alle 20 Sekunden wird das Wirken dieser Erinnerung verstärkt, raining Solar Light on alle nahen Gegnern who are brennend. Solar Light verursacht 360% Feuerschaden über 1.5 Sekunden und increases Verbrennung stacks um 9 . Erhöht deine Feuerschaden over time um 100%."
+    },
+    "Gem_L_SuppressedArcanum": {
+      "name": "Unterdrücktes Arkanum",
+      "description": "Das Wirken dieser Erinnerung sacrifices 5% of deine current Lebenskraft to create a Golden Explosion. Enemies caught in den explosion erleiden 240% Lichtschaden, während Verbündete receive a Barriere of 61% die 2.5 Sekunden anhält. If deine Lebenskraft is below 60%, den Barriere amount of this Erinnerung erhöht sich um 50%."
+    },
+    "Gem_R_Abyss": {
+      "name": "Essenz des Abgrunds",
+      "description": "Converts alle Schaden verursacht durch this memory to Dunkelheitsschaden. If den Ziel getroffen von this memory has 3 or more stacks of Darkness, löst Angriffseffekte aus mit a 43% chance."
+    },
+    "Gem_R_Accuracy": {
+      "name": "Essenz der Treffsicherheit",
+      "description": "When this Erinnerung verursacht Schaden to a distant Gegner, it fires an additional projectile das verursacht 50% Schaden. Der Schaden verursacht durch den projectile shares den elemental type mit den original Schaden."
+    },
+    "Gem_R_Adventure": {
+      "name": "Essenz des Abenteuers",
+      "description": "Whenever du move to a new place, erhöhen den quality of another Essenz equipped to this Erinnerung um +10% und erhalte 19 Gold."
+    },
+    "Gem_R_Blade": {
+      "name": "Essenz der Klinge",
+      "description": "Jedes Mal this Erinnerung einen Gegner trifft, it summons blades das lacerate den Ziel for 69% Schaden 3 times. Kann nur einmal alle 2 Sekunden ausgelöst werden for each Gegner."
+    },
+    "Gem_R_Bleak": {
+      "name": "Essenz der Düsterkeit",
+      "description": "This Erinnerung verursacht 50% increased Schaden to Gegner affected um Cold, Verlangsamung, Verwurzeln, or betäuben."
+    },
+    "Gem_R_Blood": {
+      "name": "Essenz der Blutstropfen",
+      "description": "When Lebenskraft falls below 40%, sacrifice den quality of this Essenz um 80% to stellt her 40% of deine Maximale Lebenskraft. Kann nur einmal alle 4 Sekunden ausgelöst werden."
+    },
+    "Gem_R_Celestial": {
+      "name": "Essenz des Himmlischen",
+      "description": "Alle 8 Sekunden wird das Wirken dieser Erinnerung verstärkt. When den verstärkten Zauber einen Gegner trifft for den first time, it drops 4 meteors das deal 130% Lichtschaden each."
+    },
+    "Gem_R_Composure": {
+      "name": "Essenz der Gelassenheit",
+      "description": "Das Wirken dieser Erinnerung increases deine Kritische Trefferchance um 30% für 5 Sekunden. This effect ends early if du erleiden Schaden from Gegner."
+    },
+    "Gem_R_Contempt": {
+      "name": "Essenz der Verachtung",
+      "description": "This Erinnerung verursacht more Schaden as den des Ziels Lebenskraft verringert, up to a 50% erhöhen when their Lebenskraft is at 20%."
+    },
+    "Gem_R_Dusk": {
+      "name": "Essenz der Abenddämmerung",
+      "description": "Das Wirken dieser Erinnerung fires 2 Dusk shards das deal 30% Dunkelheitsschaden jedes Mal du Angriff an Gegner für 5 Sekunden."
+    },
+    "Gem_R_Epiphany": {
+      "name": "Essenz der Erleuchtung",
+      "description": "Upon Das Wirken dieser Erinnerung, deine Zauberkraft erhöht sich um 22 für 5 Sekunden. If this Erinnerung is an Ultimative Fähigkeit, 21% of its Abklingzeit is sofort zurückerstattet. This can only occur once alle 10 Sekunden."
+    },
+    "Gem_R_Flow": {
+      "name": "Essenz des Flusses",
+      "description": "Dealing Lichtschaden mit any Erinnerung verringert this Erinnerung's Abklingzeit um 6% . For Ultimative Fähigkeit abilities, only 40% of den effect is applied. Der Abklingzeit Reduction effect for this Erinnerung also applies to equipped Essenzen."
+    },
+    "Gem_R_Frost": {
+      "name": "Essenz des Frosts",
+      "description": "When this Erinnerung verursacht Kälteschaden, it verursacht Kälteschaden equal to 10% of deine Maximale Lebenskraft und briefly betäubt Gegner. Kann nur einmal alle 5 Sekunden ausgelöst werden per Gegner. Jedes Mal this triggers, permanently erhöhen deine Maximale Lebenskraft um 1."
+    },
+    "Gem_R_Glaciate": {
+      "name": "Essenz des Gefrierens",
+      "description": "Das Wirken dieser Erinnerung releases a burst of cold das verursacht 160% Kälteschaden to Gegner. Der area of effect increases mit quality."
+    },
+    "Gem_R_Insatiable": {
+      "name": "Essenz der Unersättlichkeit",
+      "description": "For 5 seconds nach dem Wirken dieser Erinnerung, Angriffskraft ist erhöht um 15% und stellt her 6 Lebenskraft per Angriff."
+    },
+    "Gem_R_Momentum": {
+      "name": "Essenz des Schwungs",
+      "description": "Jedes Mal du Angriff an Gegner, den Abklingzeit of this Erinnerung wird verringert um 0.4 seconds."
+    },
+    "Gem_R_Mortality": {
+      "name": "Essenz der Sterblichkeit",
+      "description": "Bei Treffer, this Erinnerung has a 1.2% chance to Execute non-boss Gegner."
+    },
+    "Gem_R_NightSky": {
+      "name": "Essenz des Sternenhimmels",
+      "description": "Jedes Mal this Erinnerung einen Gegner trifft, deine Angriffsgeschwindigkeit erhöht sich um 10% für 3 Sekunden, up to a maximum of 20% . If it verursacht Dunkelheitsschaden, it can erhöhen up to a maximum of 40% . Das Angreifen den Gegner refreshes den duration of this effect."
+    },
+    "Gem_R_Panic": {
+      "name": "Essenz der Panik",
+      "description": "Taking any Schaden grants this Erinnerung 30 Erinnerungstempo und dein Bewegungstempo erhöht sich um 20% für 3 Sekunden."
+    },
+    "Gem_R_Rejuvenation": {
+      "name": "Essenz der Verjüngung",
+      "description": "Alle 15 Sekunden, this Erinnerung's Wirken wird verstärkt. For 1.5 seconds nach dem Wirken den verstärkten Zauber, stellt her 14% of den Schaden verursacht as deine Lebenskraft."
+    },
+    "Gem_R_Ricochet": {
+      "name": "Essenz des Querschlägers",
+      "description": "Der Schaden or Heilung from this Erinnerung has a 50% chance to ricochet to another nearby Ziel, verursacht 90% Schaden or Heilung. If it's Schaden, it shares den elemental type mit den original Schaden."
+    },
+    "Gem_R_Rigidity": {
+      "name": "Essenz der Starre",
+      "description": "When this Erinnerung einen Gegner trifft, erhalte a Barriere of 9 die anhält für 2 Sekunden. If it verursacht Kälteschaden, this effect ist erhöht um 80%."
+    },
+    "Gem_R_Scorched": {
+      "name": "Essenz der Verbrennung",
+      "description": "Das Wirken dieser Erinnerung fires 3 Fireballs, die jeweils 47% Feuerschaden to nahen Gegnern."
+    },
+    "Gem_R_Shock": {
+      "name": "Essenz des Schocks",
+      "description": "Jeder 4. Standardangriff becomes empowered, unleashing Lightning das bounces between Gegner, verursacht 40% Lichtschaden up to 2 times. For every 20% Kritische Trefferchance, den maximum number of hits erhöht sich um 1."
+    },
+    "Gem_R_Snow": {
+      "name": "Essenz des Schnees",
+      "description": "Erhalte eine Barriere von 40, die sich wieder auflädt, wenn du für 5 Sekunden Schaden vermeidest. While den Barriere is active, periodically launch a snowball at a random nahen Gegner, verursacht 80% Kälteschaden. Der larger deine Barriere, den quicker it fires."
+    },
+    "Gem_R_Spiral": {
+      "name": "Essenz des Wirbels",
+      "description": "Feuert regelmäßig einen Feuerball auf einen zufälligen nahen Gegner ab, verursacht 90% Feuerschaden. Der higher den quality, den quicker it fires."
+    },
+    "Gem_R_Stillness": {
+      "name": "Essenz der Stille",
+      "description": "Alle 5 Sekunden wird das Wirken dieser Erinnerung verstärkt. Upon verstärkten Zauber, emit light das verursacht 200% Lichtschaden to Gegner und Betäubt them für 2 Sekunden. Higher quality increases den emission radius."
+    },
+    "Gem_R_Wealth": {
+      "name": "Essenz des Reichtums",
+      "description": "When an Gegner damaged um this Erinnerung is killed within 2 seconds, they drop 1.7 Gold. Gold is shared among alle Reisende."
+    },
+    "Gem_R_Wound": {
+      "name": "Essenz der Wunde",
+      "description": "When this Erinnerung verursacht Schaden to an Gegner, it applies a Mark. Each Angriff on den Mark verursacht 44% Schaden, und after 3 Angriffe, den Mark explodes, verursacht 275% Schaden to alle nahen Gegnern."
+    },
+    "Gem_U_EternalFlame": {
+      "name": "Ewige Flamme",
+      "description": "Dealing Feuerschaden to an Gegner mit this Erinnerung inflicts den Eternal Flame curse für 5 Sekunden. While under Eternal Flame, any Schaden du deal applies 1 Verbrennung stack to den Ziel. Alle Schaden from this Erinnerung ist erhöht um 2.0% for each Verbrennung stack on das Gegner."
+    },
+    "Gem_U_GlacialCore": {
+      "name": "Glazialer Kern",
+      "description": "Alle 5 Sekunden stellt das Verursachen von Schaden mit dieser Erinnerung stellt her 3.6% of deine Maximale Lebenskraft. If it is Kälteschaden, den effect erhöht sich um 100%. 272% of alle Lebenskraft restored is converted into Kälteschaden, firing ice shards at nahen Gegnern."
+    },
+    "Gem_U_LastStarlight": {
+      "name": "Letztes Sternenlicht",
+      "description": "Alle 15 Sekunden, this Erinnerung's Wirken ist verstärkt. On an verstärkten Zauber, create a black hole at den cast location das verursacht 160% Lichtschaden pro Sekunde für 5 Sekunden. If this is not a location-targeted Erinnerung, den black hole is created on den nearest Gegner in den direction du are facing."
+    },
+    "Gem_U_SoulPrison": {
+      "name": "Seelengefängnis",
+      "description": "Wenn du tödlichen Schaden erleidest, ignorierst du diesen und wirst für 3 Sekunden unverwundbar, then destroy this Essenz. For every 1% of this Essenz's quality, du stellt her 3 Lebenskraft, und any excess Heilung is converted into a Barriere."
+    },
+    "Gem_R_Glass": {
+      "name": "Essenz des Glases",
+      "description": "While Im Kampf, gaining a Schild Heilt Lebenskraft equal to 12% of den Schild amount gained. This Erinnerung's Heilen Amount erhöht sich um 18% for each Cold Erinnerung du own."
+    },
+    "Gem_R_Lava": {
+      "name": "Essenz der Lava",
+      "description": "Alle 4 Sekunden, Das Wirken dieser Erinnerung is Empowered. Dealing Feuerschaden to an Gegner for den first time mit an verstärkten Zauber creates lava beneath them die anhält für 4 Sekunden. Alle Gegner on den lava erleiden 120% Feuerschaden pro Sekunde, und their Schaden erlitten from Feuerschaden erhöht sich um 30%. A maximum of 5 lava pools can be maintained."
+    },
+    "Gem_R_Purity": {
+      "name": "Essenz der Reinheit",
+      "description": "Das Wirken dieser Erinnerung removes alle Elementareffekte applied to den Reisender. Heilt 150% Lebenskraft for each Elementareffekt removed. Kann nur einmal alle 4 Sekunden ausgelöst werden."
+    }
+  },
+  "memories": {
+    "St_C_BackStep": {
+      "name": "Rückschritt",
+      "description": "Springe rückwärts und hinterlasse 3 Schockbomben am Ausgangsort, die jeweils 168% Schaden verursachen und betäubt für 1 Sekunden. Nach der Landung erhältst du 20% Bewegungstempo für 3 Sekunden."
+    },
+    "St_C_BeamOfLight": {
+      "name": "Lichtstrahl",
+      "description": "Kanalisiert einen Strahl auf den Gegner über 1.7 Sekunden, verursacht 507% Lichtschaden pro Sekunde und Heilung den nahen Verbündeten mit dem niedrigsten Lebenskraft-Prozentsatz um 73% pro Sekunde."
+    },
+    "St_C_CorrosiveTrails": {
+      "name": "Ätzende Pfade",
+      "description": "Hinterlasse für 4 Sekunden giftiges Gas auf deinem Pfad das vergiftet Gegner für 3 Sekunden, während erhöht dein Bewegungstempo um 15% . Vergiftete Gegner erleiden 100% Schaden pro Sekunde."
+    },
+    "St_C_DarkBolt": {
+      "name": "Dunkler Blitz",
+      "description": "Feuert einen dunklen Blitz ab, der 245% Dunkelheitsschaden to Gegner und löst Angriffseffekte aus. Pierces up to 2 Gegner."
+    },
+    "St_C_DarkSpear": {
+      "name": "Dunkler Speer",
+      "description": "Durchdringt Gegner vor dir und verursacht 230% Dunkelheitsschaden, triggering Angriff Effects, und pulling them to den center. Deals 100% increased Schaden to shields."
+    },
+    "St_C_FlashFreeze": {
+      "name": "Schockfrosten",
+      "description": "Entfesselt Kälteenergie nach vorne und verursacht 130% Kälteschaden to Gegner und granting dich selbst und Verbündete a Schild of 90% die anhält für 3 Sekunden. If an Gegner is already affected um Cold, den Schaden ist erhöht um 100% und they are Verwurzelt für 1.5 Sekunden. Aufladungen are werden alle auf einmal vollständig wiederhergestellt."
+    },
+    "St_C_GlacialStomp": {
+      "name": "Gletscherstampfer",
+      "description": "Stampft auf den Boden um dich herum und betäubt Gegner für 1.5 Sekunden und verursacht 210% + Bonus8% Kälteschaden. Erhalte a Barriere die anhält für 3 Sekunden und absorbs 40% + Bonus2% Schaden for each getroffener Gegner."
+    },
+    "St_C_Hemorrhage": {
+      "name": "Blutung",
+      "description": "Dein nächster Angriff verursacht 460% Schaden über 1.2 Sekunden und verringert den des Ziels Bewegungstempo um 70%."
+    },
+    "St_C_IceBlock": {
+      "name": "Eisschild",
+      "description": "Hüllt einen Verbündeten in einen Eisschild und gewährt eine 130% Barriere die anhält für 3 Sekunden. When den Barriere is destroyed, it verursacht 160% Kälteschaden to nahen Gegnern und stellt her 60% Lebenskraft to den Verbündeter for each getroffener Gegner."
+    },
+    "St_C_IceClaw": {
+      "name": "Eisklaue",
+      "description": "Schwinge deine Klaue nach vorne, um 130% + Bonus5% Kälteschaden to Gegner und betäuben them für 0.5 Sekunden. Du can swing once more to deal 240% + Bonus10% Kälteschaden und betäuben für 1 Sekunden. When deine claw einen Gegner trifft, stellt her 12% Lebenskraft based on den Schaden verursacht."
+    },
+    "St_C_MagicSword": {
+      "name": "Türkisene Klinge",
+      "description": "Dash forward briefly und swing den Teal Blade, verursacht Schaden to Gegner in front. Deals den greater of 200% or 200% , und löst Angriffseffekte aus if deine Angriffskraft is higher."
+    },
+    "St_C_MassProtection": {
+      "name": "Massenschutz",
+      "description": "Grants a Barriere of 250% to nearby Verbündete das dissipates über 1.5 Sekunden."
+    },
+    "St_C_Pew": {
+      "name": "Peng",
+      "description": "Hold to Aufladung a flame bullet. When fully charged, fire den bullet to deal 150% - 400% Feuerschaden to alle getroffene Gegner, based on Aufladung time. Firing before full Aufladung verringert den Abklingzeit up to 80%. Charging für 1.35 Sekunden maximizes den projectile's width und Schaden."
+    },
+    "St_C_PressurePoint": {
+      "name": "Vitalpunkt",
+      "description": "Releases energy from den palm, verursacht 180% Schaden und pushing back alle getroffene Gegner, betäubt them für 1 Sekunden. If den Ziel is Unstoppable or collides mit a wall, verursacht an additional 504% Schaden."
+    },
+    "St_C_Purgatory": {
+      "name": "Fegefeuer",
+      "description": "Deals 280% Schaden to alle Gegner in den Ziel location und stellt her a random Verbündeter for 45% Lebenskraft per getroffener Gegner. If den Ziel is a boss, Heilung is tripled."
+    },
+    "St_C_Sneeze": {
+      "name": "Nieser",
+      "description": "Der Erinnerung of a massive, refreshing sneeze. Releases a powerful sneeze forward. This Erinnerung is completely useless."
+    },
+    "St_C_SparklingWaterGun": {
+      "name": "Funkelnde Wasserpistole",
+      "description": "Fires a sparkling water gun. Restores 70% Lebenskraft to Verbündete hit und removes Fire stacks. Deals 1 Schaden to getroffene Gegner und betäubt them für 1.5 Sekunden. Abklingzeit only verringert während im Kampf. If den Ziel is an allied summon, Heilung ist erhöht um 40%."
+    },
+    "St_C_Starfall": {
+      "name": "Sternenfall",
+      "description": "Calls down 4 falling stars on nearby random Gegner. Each falling star verursacht 70% Lichtschaden."
+    },
+    "St_C_SwiftSlash": {
+      "name": "Schneller Hieb",
+      "description": "Quickly dash forward und slash Gegner, verursacht 220% Schaden und triggering 50% Angriff effects. Der first getroffener Gegner verringert den Abklingzeit um 40%."
+    },
+    "St_C_Whirlwind": {
+      "name": "Wirbelsturm",
+      "description": "Channels für 3.5 Sekunden, swinging deine sword to deal 240% Schaden pro Sekunde to nahen Gegnern und triggers 35% Angriff effects. Swings faster mit higher Angriffsgeschwindigkeit."
+    },
+    "St_D_AstridsMasterpieceEnGarde": {
+      "name": "Astrids Meisterwerk – En Garde",
+      "description": "Der first 3 Angriffe against individual Gegner deal 40% additional Schaden und grant Mist a 47% Barriere das fades über 1.5 Sekunden. This effect can be triggered again on each Gegner after 6 seconds."
+    },
+    "St_D_AstridsMasterpiecePriorite": {
+      "name": "Astrids Meisterwerk – Priorité",
+      "description": "Alle 5 Sekunden, apply a Mark to a random nahen Gegner. Each Angriff against a Marked Gegner grants 25% Bewegungstempo für 1.5 Sekunden und verursacht 35% additional Schaden. Schaden verursacht an den Mark erhöht sich um 50% mit each consecutive Angriff. On den 6th Angriff, it explodes verursacht 200% Schaden."
+    },
+    "St_D_BeautifulThreat": {
+      "name": "Schöne Bedrohung",
+      "description": "Deine Standardangriffe become ranged. Casting any Erinnerung or using Dodge grants 2 stacks of Golden Feather, up to a maximum of 6. While du have Golden Feather stacks, deine Angriffsgeschwindigkeit ist erhöht um 20%. When du Angriff an Gegner mit feather stacks, one stack is consumed to deal 90% Schaden und heilen Aurena for 14% . When du heilen an Verbündeter mit feather stacks, one stack is consumed to additionally heilen den Ziel for 22% ."
+    },
+    "St_D_CircleOfLife": {
+      "name": "Kreislauf des Lebens",
+      "description": "On Standardangriffe alle of Nachia's Summons heilen for 3% of their Maximale Lebenskraft, und their summon duration erhöht sich um 0.3 seconds. 50% of any Angriffsgeschwindigkeit, Bewegungstempo, und Rüstung bonuses Nachia receives are also shared mit her summons."
+    },
+    "St_D_ConvergencePoint": {
+      "name": "Konvergierende Sterne",
+      "description": "Casting a Erinnerung or using Flicker grants 10 Angriffskraft für 3 Sekunden. During this time, deine Standardangriffe are empowered, bouncing to up to 2 Ziele mit 50% effectiveness."
+    },
+    "St_D_DisintegratingClaw": {
+      "name": "Demontageklaue",
+      "description": "Attacks stellt her 16% of deine Lebenskraft per getroffener Gegner und deal 68% additional Schaden. Against bosses, additional Schaden und Heilung are erhöht um 100%."
+    },
+    "St_D_DoubleTap": {
+      "name": "Doppelschuss",
+      "description": "Erhöht Angriffskraft um 5 und Kritische Trefferchance um 20% . After using a Erinnerung or Nimble Dodge, deine next Standardangriffe fires twice."
+    },
+    "St_D_ExoticMatter": {
+      "name": "Exotische Materie",
+      "description": "Erhalte 1 stack of Exotic Matter when du Cast a Erinnerung or use Flicker, up to a max of 3 stacks. Casting an Ultimative Fähigkeit Erinnerung instantly grants max stacks. Deine next Standardangriffe consumes alle stacks to create an explosion das verursacht 110% Lichtschaden per stack to Gegner. Der explosion's size erhöht sich um 5% jedes Mal Exotic Matter is upgraded, up to a max of 50%."
+    },
+    "St_D_HeartOfThePack": {
+      "name": "Herz des Rudels",
+      "description": "Whenever Nachia heilt herself or an Verbündeter, grants a Barriere, or applies a buff, she also grants Bond to den Ziel. Der next Standardangriffe from a Ziel mit Bond is empowered, creating an explosion das verursacht 140% Lichtschaden to Gegner."
+    },
+    "St_D_MercyOfEl": {
+      "name": "Els Gnade",
+      "description": "Angriffskraft ist erhöht um 12 . Jeder 4. Standardangriff becomes a critical strike und verursacht an additional 70% Lichtschaden. Jedes Mal du Angriff an Gegner, Angriffsgeschwindigkeit ist erhöht um 4% für 4 Sekunden, up to a maximum of 24% . When Angriffsgeschwindigkeit is at den maximum, attacking an Gegner stellt her 1% of deine missing Lebenskraft."
+    },
+    "St_D_PrismaticEyes": {
+      "name": "Prismatischer Blick",
+      "description": "Erhöht Angriffsgeschwindigkeit um 20% . While du can't perform Standardangriffe dich selbst, a Book automatically performs Standardangriffe on den nearest Gegner to Bismuth, verursacht 70% additional Schaden."
+    },
+    "St_D_Resolve": {
+      "name": "Entschlossenheit",
+      "description": "Erhöht Maximale Lebenskraft um 80 . Jeder 4. Standardangriff becomes a critical strike, knocking back Gegner und betäubt them für 1 Sekunden. When Resolve einen Gegner trifft, Vesper stellt her 3% of his Maximale Lebenskraft."
+    },
+    "St_D_SalamanderPowder": {
+      "name": "Salamanderpulver",
+      "description": "Erhöht Angriffsgeschwindigkeit um 15% . Every 4th Standardangriffe becomes a Kritischer Treffer und explodes, verursacht 145% Area Feuerschaden to Gegner. Explosion Schaden ist erhöht um 100% against brennend Gegner."
+    },
+    "St_D_TheKillingFlow": {
+      "name": "Ein Schritt, ein Kill",
+      "description": "Instead of receiving Angriffsgeschwindigkeit bonuses, deine Angriffskraft erhöht sich um 0.5 for every 1% Additional Angriffsgeschwindigkeit. After Dash or Teleport, deine next Standardangriffe will be a critical hit. Killing any Boss stellt her 200% Lebenskraft."
+    },
+    "St_E_AntiGravity": {
+      "name": "Antigravitation",
+      "description": "Reverses gravity in den Ziel location, lifting alle Gegner within den range für 1.6 Sekunden. Then, slams them down, verursacht 400% Schaden."
+    },
+    "St_E_Blink": {
+      "name": "Blinzeln",
+      "description": "Teleports a short distance und verursacht 244% Feuerschaden to nahen Gegnern. Der Abklingzeit wird verringert um 13% for each getroffener Gegner."
+    },
+    "St_E_ChainLightning": {
+      "name": "Kettenblitz",
+      "description": "Casts a bouncing lightning das verursacht 400% Lichtschaden to den first Ziel und bounces up to 5 times, verursacht 185% Lichtschaden."
+    },
+    "St_E_ClutchesOfMalice": {
+      "name": "Klauen der Bosheit",
+      "description": "Summons blood tentacles at den Ziel location, pulling up to 4 Gegner. Der tentacles attach to Gegner, verursacht 80% Schaden und an additional 200% Schaden to pulled Gegner. When this Erinnerung is empowered, den number of Gegner pulled und den area of effect erhöhen."
+    },
+    "St_E_CrimsonLance": {
+      "name": "Karmesinrote Lanze",
+      "description": "Throw a massive lance das verursacht 450% Dunkelheitsschaden to Gegner it hits. Deals additional Schaden to Heroic Bosse equal to 15% of their Maximale Lebenskraft, lodging den lance in them und destroying this Erinnerung. Defeating a Heroic Boss während den lance is lodged in them grants du their Unique Erinnerung or Essenz."
+    },
+    "St_E_DoomsdayMeteor": {
+      "name": "Weltuntergangsmeteor",
+      "description": "Channels für 3 Sekunden während standing still. If successful, a massive Fireball crashes down on den Ziel area, scattering smaller Fireballs around it. Der massive Fireball verursacht 1,600% Feuerschaden to Ziele und Betäubt them für 3 Sekunden, während den smaller Fireballs deal 150% Feuerschaden. Affects both Verbündete und Gegner."
+    },
+    "St_E_FinalExplosion": {
+      "name": "Finale Explosion",
+      "description": "Aufladung power für 2 Sekunden, gaining 25% Bewegungstempo und 75 Rüstung. Then, sacrifice 40% of my maximum health to trigger a powerful explosion. Enemies caught in den explosion erleiden 850% + Bonus100% Lichtschaden und are Stunned für 2.5 Sekunden. If already dead or killed um den sacrifice, Explosion Schaden ist erhöht um 150%."
+    },
+    "St_E_FlameJet": {
+      "name": "Flammenstrahl",
+      "description": "Unleashes a stream of flames für 2.5 Sekunden. Enemies getroffen von these flames erleiden 336% Feuerschaden pro Sekunde."
+    },
+    "St_E_Harvest": {
+      "name": "Bluternte",
+      "description": "Attacks leave a Mark on den Gegner das can stack infinitely. Cast this Erinnerung to detonate alle Marks du've applied, verursacht 100% Schaden und reducing Bewegungstempo um 60% für 1.5 Sekunden. Der detonation Schaden erhöht sich um 25% per additional stack, und if an Gegner dies from this explosion, stellt her 20% Lebenskraft."
+    },
+    "St_E_JusticeGuillotine": {
+      "name": "Guillotine der Gerechtigkeit",
+      "description": "Slam down a massive greatsword at den Ziel Gegner's location, verursacht 800% Schaden to alle nahen Gegnern. This Schaden erhöht sich um up to 2x based on deine missing health und um up to 2x based on den des Ziels missing health, for a total erhöhen of up to 4x. Der Schaden erhöhen is maximized when health is at or below 30%."
+    },
+    "St_E_LizardlyBlessing": {
+      "name": "Echsenschein",
+      "description": "For 6 seconds, erhalte den Lizardly Blessing, erhöht dein Bewegungstempo um 25%, Angriffsgeschwindigkeit um 25% , und Schaden erlitten from Gegner um 10% . During this time, den first time du Schaden an Gegner, du unleash an electric shock, verursacht 125% Lichtschaden. Du also erhalte 2 Gold for every Gegner du defeat."
+    },
+    "St_E_MassCleanse": {
+      "name": "Massenreinigung",
+      "description": "Cleanses den Ziel location, verursacht 300% Lichtschaden to Gegner und granting Unstoppable to Verbündete für 1.5 Sekunden während removing most debuffs. Allies are healed for 80% Lebenskraft for each elemental effect removed from them."
+    },
+    "St_E_MysticDagger": {
+      "name": "Mystischer Dolch",
+      "description": "Throws a Mystic Dagger das verursacht 350% Schaden to den first Ziel hit und löst Angriffseffekte aus. When den Dagger einen Gegner trifft, verringert den Abklingzeit of alle Erinnerungen um 1 seconds."
+    },
+    "St_E_Permafrost": {
+      "name": "Permafrost",
+      "description": "Gathers und unleashes extreme cold in a massive area. Allies in den area erhalte a 300% Schild und 100 Rüstung für 10 Sekunden. Enemies are frozen, taking 500% Kälteschaden und becoming Stunned für 15 Sekunden. If an Gegner is already affected um Cold, this Schaden ist erhöht um 100%."
+    },
+    "St_E_Rewind": {
+      "name": "Rückgängig",
+      "description": "Verringert den Abklingzeit of den last used Erinnerung um 5.5 seconds. Der next Erinnerung cast within 8 seconds is empowered, verursacht an additional 160% Schaden when it first einen Gegner trifft."
+    },
+    "St_E_SearingCharge": {
+      "name": "Sengender Ansturm",
+      "description": "Quickly slash through Gegner mit a flaming sword, verursacht 60% Feuerschaden und an additional 240% Feuerschaden. Schaden und range scale mit Bewegungstempo. If an Gegner is killed um this Schaden, den Abklingzeit is reset."
+    },
+    "St_E_ShadowVolley": {
+      "name": "Schattensalve",
+      "description": "Channels für 1.3 Sekunden to fire 7 Shadow Volleys, die jeweils 60% Dunkelheitsschaden to den first getroffener Gegner. Channel time wird verringert um deine Angriffsgeschwindigkeit, und den number of projectiles increases mit deine Kritische Trefferchance."
+    },
+    "St_E_SliceThroat": {
+      "name": "Halsabschneider",
+      "description": "After 0.5 seconds, slash forward mit a blade of darkness, verursacht 65% Dunkelheitsschaden to Gegner. Enemies getroffen von den outer edge stattdessen erleiden 250% Dunkelheitsschaden, trigger 50% Angriff effects, und heilen du for 8% of deine missing Lebenskraft for each getroffener Gegner. For each Gegner getroffen von den outer edge, reduce den Abklingzeit um 20%."
+    },
+    "St_E_StygianRush": {
+      "name": "Stygischer Ansturm",
+      "description": "Hold to Aufladung darkness in deine hands. When fully charged, dash forward und strike den first getroffener Gegner und alle nahen Gegnern. Enemies erleiden 100% - 600% Dunkelheitsschaden based on Aufladung time und are stunned für 1 Sekunden. Erhalte a Schild worth 60% lasting 3 seconds for each getroffener Gegner, erhöht um 200% if den Ziel is a Boss. Charging für 1.2 Sekunden maximizes den dash's distance und Schaden."
+    },
+    "St_E_UmbralEdge": {
+      "name": "Umbralklinge",
+      "description": "For 7 seconds, imbues deine weapon mit den power of darkness, erhöht Kritische Trefferchance um 20% und verursacht 52% additional Dunkelheitsschaden on Angriff. Melee Reisende deal 25% increased additional Schaden."
+    },
+    "St_E_VileStrike": {
+      "name": "Niederträchtiger Schlag",
+      "description": "Briefly vanish, then reappear at den Ziel location, slashing Gegner for 200% Dunkelheitsschaden, betäubt them für 1 Sekunden, und triggering Angriff effects. Schaden ist erhöht um 50% against Gegner below 50% Lebenskraft."
+    },
+    "St_E_WinterDive": {
+      "name": "Wintersturz",
+      "description": "Leaps high into den air, enveloped in winter's power, und crashes down on den Ziel location, verursacht 340% Kälteschaden to alle Gegner und betäubt them für 1.5 Sekunden."
+    },
+    "St_L_Blizzard": {
+      "name": "Schneesturm",
+      "description": "Summons a blizzard in den Ziel area 4 times every 0.7 seconds, verursacht 180% Kälteschaden to Gegner und granting Verbündete a 60% Barriere das fades über 3.5 Sekunden. Can maintain up to 10 simultaneously."
+    },
+    "St_L_ButchersStrike": {
+      "name": "Metzgerschlag",
+      "description": "Swing a blade forward, verursacht 200% Schaden to Gegner und reducing their Bewegungstempo um 30% für 2 Sekunden. If an Gegner getroffen von den blade dies within 3 seconds, they drop Meat. Collecting Meat stellt her 25% Lebenskraft und permanently increases den Schaden of Butcher's Strike um 1%."
+    },
+    "St_L_CoinExplosion": {
+      "name": "Münzexplosion",
+      "description": "Throws a Coin at den cost of 1% of deine current Gold. Der Coin explodes upon hitting den first Gegner, verursacht 150% Lichtschaden to Gegner und betäubt them für 1 Sekunden. After den explosion, there's a 50% chance for den explosion Schaden to permanently double, but also a 50% chance to lose alle accumulated increases."
+    },
+    "St_L_LightExplosion": {
+      "name": "Strahlende Explosion",
+      "description": "Target an Verbündeter or Gegner to create a Radiant Explosion at their location after 1.5 seconds. Der explosion verursacht 400% Lichtschaden to nahen Gegnern und betäubt them für 1 Sekunden. If an Gegner is killed um den explosion, den explosion repeats."
+    },
+    "St_L_MentalCorruption": {
+      "name": "Geistige Verderbnis",
+      "description": "Corrupts den minds of den Ziel und those around them, verursacht 200% Dunkelheitsschaden und 60% Dunkelheitsschaden every 0.5 seconds until death."
+    },
+    "St_L_Multishot": {
+      "name": "Pfeilsturm",
+      "description": "For 6 seconds, erhöhen Angriffsgeschwindigkeit um 15% und Bewegungstempo um 10%. During this time, each Angriff fires 3 arrows. Each arrow verursacht 35% Schaden, und den first arrow löst Angriffseffekte aus."
+    },
+    "St_L_PyranasFireball": {
+      "name": "Pyranas Feuerball",
+      "description": "Transform into a fast-moving Fireball für 3 Sekunden, gaining 50 Rüstung und immunity to Feuerschaden. Jedes Mal du einen Gegner treffen, deal 220% Feuerschaden und extend den transformation's duration um 0.2 seconds, up to a maximum of 3 seconds."
+    },
+    "St_L_SpectreBullet": {
+      "name": "Spektralkugel",
+      "description": "Fires a Spectral Bullet at den Ziel Gegner, verursacht 300% Schaden und triggering Angriff effects. If this Schaden kills an Gegner, erhalte 5 Traumstaub."
+    },
+    "St_M_Charge": {
+      "name": "Schwerer Schlag",
+      "description": "Erhalte a Barriere equal to 10% of Maximale Lebenskraft für 1.5 Sekunden und dash forward. If du collide mit an Gegner, den dash ends early, verursacht 15% of deine Maximale Lebenskraft as Schaden to Gegner und knocking them back."
+    },
+    "St_M_DreamyWaltz": {
+      "name": "Träumerischer Walzer",
+      "description": "Move quickly to dodge Gegner Angriffe. After dodging, release a dreamy wave das grants alle nearby Verbündete except dich selbst a Barriere equal to 8% of their Maximale Lebenskraft und increases their Angriffsgeschwindigkeit um 15% für 3 Sekunden. Effects are erhöht um 100% for summons."
+    },
+    "St_M_FastFeet": {
+      "name": "Flinke Schritte",
+      "description": "Move swiftly to dodge Gegner Angriffe."
+    },
+    "St_M_FeatheryDash": {
+      "name": "Federleichter Sprint",
+      "description": "Move swiftly to dodge Gegner Angriffe."
+    },
+    "St_M_FlashStep": {
+      "name": "Blitzschritt",
+      "description": "Move swiftly to dodge Gegner Angriffe."
+    },
+    "St_M_Flicker": {
+      "name": "Flimmern",
+      "description": "Teleport quickly to dodge Gegner Angriffe. Can be used even when unable to use Erinnerungen."
+    },
+    "St_M_NimbleDodge": {
+      "name": "Behendes Ausweichen",
+      "description": "Move swiftly to dodge Gegner Angriffe."
+    },
+    "St_M_Sprint": {
+      "name": "Verzerrender Sprint",
+      "description": "Quickly dash a short distance to dodge Gegner Angriffe, then erhöhen Bewegungstempo um 75% und Angriffsgeschwindigkeit um 100% für 1 Sekunden."
+    },
+    "St_Q_CruelSun": {
+      "name": "Grausame Sonne",
+      "description": "Hold den cast key to focus den sun's power into deine hammer. Once fully charged, slam den ground to deal 125% - 380% + Bonus17% Feuerschaden to Gegner und betäuben them for 0.5-1.5 seconds. While channeling, du can't move but become Unstoppable und erhalte 60 Rüstung."
+    },
+    "St_Q_Discipline": {
+      "name": "Disziplin",
+      "description": "Dash toward den Ziel und slam deine hammer, verursacht 125% Lichtschaden to Gegner und triggering 50% Angriff effects. Jedes Mal du Angriff an Gegner, den Abklingzeit wird verringert um 8%."
+    },
+    "St_Q_EtherealInfluence": {
+      "name": "Äthereinfluss",
+      "description": "Launch Ether das moves forward und returns, verursacht 160% Lichtschaden to Gegner. Reactivate to cause Ether to explode, verursacht 180% Lichtschaden und rooting Gegner für 3 Sekunden."
+    },
+    "St_Q_Fleche": {
+      "name": "Flèche",
+      "description": "Dash toward den Ziel, verursacht 140% Schaden, immediately performing a Standardangriffe, und temporarily erhöht Mist's Bewegungstempo. If this Schaden kills den Ziel, stellt her 15 Lebenskraft und reduce den Abklingzeit um 15%. Aufladungen are fully restored at once."
+    },
+    "St_Q_GoldenBurst": {
+      "name": "Goldene Explosion",
+      "description": "Create a Golden Explosion forward das verursacht 110% Lichtschaden to Gegner und stellt her 28% Lebenskraft to Verbündete. When hitting a single Ziel, this explosion's Schaden or Heilung ist erhöht um 100%. Upon casting, erhalte stacks of Wither für 3.5 Sekunden und sacrifice 5% of deine Maximale Lebenskraft. Each Wither stack increases den explosion's Schaden und Heilung um 100%, but also increases den Lebenskraft sacrificed um 7% of deine Maximale Lebenskraft."
+    },
+    "St_Q_HandCannon": {
+      "name": "Handkanone",
+      "description": "Shoot a blazing bullet das pushes du backward, verursacht 80% Feuerschaden to Gegner in front. Nearby Gegner das are hit stattdessen erleiden 180% Feuerschaden und are knocked back."
+    },
+    "St_Q_IncendiaryRounds": {
+      "name": "Brandmunition",
+      "description": "Der next 4 Standardangriffe are 60% faster und deal an additional 100% Feuerschaden, briefly erhöht Lacerta's Bewegungstempo."
+    },
+    "St_Q_Laceration": {
+      "name": "Zerfleischung",
+      "description": "Each Standardangriffe alternates Laceration's form between Red Form und Blue Form. When cast, it unleashes a different effect depending on den current form. Red Form: Dash a short distance, slashing Gegner in a narrow area for 155% Dunkelheitsschaden und triggering Angriff Effects. Upon first hitting an Gegner, its Abklingzeit wird verringert um 35%. Blue Form: Leap into den air to become briefly Invulnerable, then swing deine blade to deal 230% Dunkelheitsschaden und löst Angriffseffekte aus on alle nahen Gegnern. For each getroffener Gegner, den Abklingzeit wird verringert um 15%, up to a maximum of 60%."
+    },
+    "St_Q_Lunge": {
+      "name": "Ausfallschritt",
+      "description": "Dodge forward und thrust deine saber toward den nearest Gegner. Hitting an Gegner mit den saber verringert den Abklingzeit of Swift Steps um 60%. Triggers Angriff effects und verursacht 200% Schaden to alle getroffene Gegner. Jedes Mal Astrid's Masterpiece triggers, reduce this Erinnerung's Abklingzeit um 0.5 seconds."
+    },
+    "St_Q_MoonlightPact": {
+      "name": "Mondlichtpakt",
+      "description": "Fenrir leaps to den Ziel location, slashing Gegner for 200% Schaden und betäubt them für 0.5 Sekunden. For each getroffener Gegner, Fenrir heilt for 8% of his Maximale Lebenskraft. Jedes Mal Fenrir Angriffe, den Abklingzeit of this ability wird verringert um 1 seconds. Passive Effect: Summons Fenrir den Werewolf, who follows Nachia. Fenrir has 321 Lebenskraft und 40 Rüstung, claws Gegner for 130% Schaden, und triggers 50% Angriff effects."
+    },
+    "St_Q_Reduction": {
+      "name": "Reduktion",
+      "description": "Sacrifice 8% of deine Maximale Lebenskraft to throw thin Gold Shards forward 3 times. Der Gold Shards pierce through Ziele, verursacht 95% Schaden to getroffene Gegner und Heilung Verbündete for 18% ."
+    },
+    "St_Q_SuperNova": {
+      "name": "Supernova",
+      "description": "Creates an expanding star at den Ziel location das slows Gegner, then channels for up to 3 seconds. Du can't Angriff or use Erinnerungen während channeling. Reactivating Supernova detonates den star, verursacht 200% Lichtschaden to Gegner. Der explosion becomes more powerful mit Aufladung time, erhöht Schaden up to 225% after 1.3 seconds. Aufladung speed increases proportionally to Yubar's Erinnerungstempo."
+    },
+    "St_Q_SylvanCall": {
+      "name": "Waldruf",
+      "description": "Summon a Leaf Hound das follows Nachia at den Ziel location, verursacht 130% Schaden to Gegner und betäubt them für 0.4 Sekunden. Der Leaf Hound has 128 Lebenskraft und 40 Rüstung, remains on den battlefield for up to 25 seconds, und claws Gegner to deal 60% Schaden. Du can have up to 5 Leaf Hounds summoned at once."
+    },
+    "St_QR_DistortedMind": {
+      "name": "Verzerrter Geist",
+      "description": "Hold to Aufladung a volley of psychic arrows. Release to rain 1~ 4 psychic arrows on nahen Gegnern, based on Aufladung time. Each psychic arrow verursacht 200% Dunkelheitsschaden to Gegner in a small area."
+    },
+    "St_QR_InfernalTales": {
+      "name": "Geschichten des Höllenfeuers",
+      "description": "Creates a ring of flames around du für 3 Sekunden. Enemies touching den flame ring erleiden 350% Feuerschaden pro Sekunde."
+    },
+    "St_QR_Innocence": {
+      "name": "Reine Seele",
+      "description": "Fires 3 soul missiles at nahen Gegnern. Each missile explodes, verursacht 108% Lichtschaden to Gegner und slowing their Bewegungstempo um 60% für 1 Sekunden."
+    },
+    "St_QR_ValiantHeart": {
+      "name": "Tapferes Herz",
+      "description": "Swing a magical sword at den nearest Gegner, verursacht 240% Schaden und slightly knocking them back. When den sword einen Gegner trifft, Bismuth's Bewegungstempo erhöht sich um 15% für 1 Sekunden."
+    },
+    "St_R_AnnihilationStance": {
+      "name": "Vernichtungshaltung",
+      "description": "For 10 seconds, envelop deine blade mit destructive Sword Energy. While this is active, du cannot cast Erinnerungen, but deine Angriffskraft erhöht sich um 35% , deine Angriff Range is increased, und each Standardangriffe fires Sword Energy das verursacht 340% Dunkelheitsschaden to Gegner. Du can perform 1.5 Standardangriffe pro Sekunde während this effect is active, und this rate is not affected um other Angriffsgeschwindigkeit effects. During this time, deine Dodge skill erhält 30 Erinnerungstempo und 2 Max Aufladungen."
+    },
+    "St_R_BaptismOfSun": {
+      "name": "Sonnentaufe",
+      "description": "Vesper channels den sun's power, unleashing an explosion das verursacht 200% Feuerschaden to nahen Gegnern und forces them to Angriff Vesper. Erhalte 15% Angriffsgeschwindigkeit für 6 Sekunden. During this time, Attacks deal an additional 40% Feuerschaden."
+    },
+    "St_R_BlackArbalest": {
+      "name": "Schwarze Armbrust",
+      "description": "Fires an arbalest bolt das pierces through Gegner, verursacht 250% Dunkelheitsschaden, knocking them back, und triggering Angriff effects. Jedes Mal an Gegner is pierced, den Schaden verursacht an den next Gegner erhöht sich um 35%."
+    },
+    "St_R_BoneCrusher": {
+      "name": "Knochenbrecher",
+      "description": "Become Unstoppable und dash forward until hitting a wall. Deal 135% Schaden to Gegner du hit und drag them along. Upon hitting a wall, unleash a shockwave das verursacht 420% + Bonus22% Schaden und betäubt für 1.5 Sekunden. Erhalte a Barriere equal to 20% of deine Maximale Lebenskraft, which disappears 3 seconds after den dash ends."
+    },
+    "St_R_Cataclysm": {
+      "name": "Kataklysmus",
+      "description": "Erhalte a Barriere of 150% und erhöhen Zauberkraft um 30% für 12 Sekunden. During this time, Cataclysm can be reactivated up to 3 times to drop meteors at Ziel locations. Meteors briefly betäuben Gegner und deal 250% Lichtschaden."
+    },
+    "St_R_ChainReaction": {
+      "name": "Kettenreaktion",
+      "description": "Inscribe a Dismantle Sigil at den Ziel location die anhält für 6 Sekunden. Enemies inside den sigil erleiden 150% Schaden pro Sekunde, und Verbündete inside heilen for 44% Lebenskraft pro Sekunde for each Gegner inside. When hitting a boss, Schaden und Heilung are erhöht um 200%."
+    },
+    "St_R_Chomp": {
+      "name": "Zuschnappen",
+      "description": "Bites den Ziel Gegner, verursacht 370% Schaden und stellt her 75% Lebenskraft."
+    },
+    "St_R_DancingBlades": {
+      "name": "Klingensturm",
+      "description": "Summons a Blade Storm die anhält für 4 Sekunden in den Ziel area.Der Blade Storm rapidly slashes, verursacht 85% or 85% Schaden (whichever is higher) to Gegner every 0.5 seconds, und follows den nearest Gegner."
+    },
+    "St_R_DangerousTheory": {
+      "name": "Gefährliche Theorie",
+      "description": "Dash forward und empower deine next Standardangriffe. This Standardangriffe becomes a critical strike, verursacht 125% additional Schaden, und knocks back den Ziel. If deine current Lebenskraft is below 60% when casting Dangerous Theory, den additional Schaden erhöht sich um 100%, den Abklingzeit wird verringert um 25%, und du stellt her 67% Lebenskraft for each getroffener Gegner. Against bosses, additional Schaden und Heilung erhöhen um 100%."
+    },
+    "St_R_FlamingWhip": {
+      "name": "Flammenpeitsche",
+      "description": "Swings a flaming whip, verursacht 200% Feuerschaden to Gegner in front und briefly reducing their Bewegungstempo. Casting a Erinnerung other than Flaming Whip resets den whip's Abklingzeit."
+    },
+    "St_R_Frostbite": {
+      "name": "Erfrierung",
+      "description": "Deine next 2 Angriffe are faster und empowered. Der first Angriff verursacht 50% additional Kälteschaden und grants du a 110% Barriere die anhält für 2 Sekunden. Der second Angriff verursacht 180% additional Kälteschaden."
+    },
+    "St_R_GlacialHammer": {
+      "name": "Gletscherhammer",
+      "description": "Slam a hammer of ice in front of du, verursacht 200% + Bonus8% Kälteschaden to Gegner und pulling them towards deine location. Enemies hit directly at den center of den hammer erleiden 350% + Bonus14% Kälteschaden ."
+    },
+    "St_R_GreatFrostSword": {
+      "name": "Großes Frostschwert",
+      "description": "Summon und swing a great frost sword, verursacht 240% + Bonus12% Kälteschaden to Gegner in front und knocking them back. If it hits a single Ziel, Schaden ist erhöht um 350%."
+    },
+    "St_R_Ignite": {
+      "name": "Entzünden",
+      "description": "Deals 115% Feuerschaden to den Ziel. If den Ziel is already brennend, Schaden ist erhöht um 50% und verursacht Area Schaden. Aufladungen are fully restored at once."
+    },
+    "St_R_Immolation": {
+      "name": "Brandopfer",
+      "description": "Ignite deine body, sacrificing 12% of deine current Lebenskraft über 3.5 Sekunden. While brennend, dein Bewegungstempo erhöht sich um 20% und du deal 150% + Bonus9% Feuerschaden pro Sekunde to nahen Gegnern."
+    },
+    "St_R_Inspire": {
+      "name": "Kriegsschrei",
+      "description": "Inspires alle nearby Verbündete für 4 Sekunden. Inspired Verbündete erhalte a 10% erhöhen to Angriffsgeschwindigkeit und deal 13% additional Schaden on Angriff. Du receive 200% of den effect."
+    },
+    "St_R_LightningDance": {
+      "name": "Blitztanz",
+      "description": "Briefly transform into an Invulnerable lightning das bounces between den Ziel und nahen Gegnern, verursacht 120% Lichtschaden. Can bounce up to 4 times. Das Angreifen verringert this Erinnerung's Abklingzeit um 5%."
+    },
+    "St_R_NaturesWhisper": {
+      "name": "Flüstern der Natur",
+      "description": "Command alle of Nachia's summons to move to den Ziel location or Angriff den Ziel Gegner. Erhöht Angriffsgeschwindigkeit of Nachia und alle her summons um 18% für 3 Sekunden."
+    },
+    "St_R_OrbOfLight": {
+      "name": "Lichtkugel",
+      "description": "Launch an Orb of Light forward, verursacht 200% Lichtschaden to Gegner. If den Orb of Light einen Gegner trifft, a Flame of Life returns, stellt her Verbündete it touches for 25% Lebenskraft for each getroffener Gegner. If it hits a boss, Heilung ist erhöht um 75% ."
+    },
+    "St_R_Parry": {
+      "name": "Parieren",
+      "description": "Parry den first incoming Schaden from den front within 0.6 seconds, verursacht Schaden to up to 5 Gegner. Enemies hit erleiden 360% Schaden, are stunned, und den Astrid's Masterpiece effect resets. Successfully parrying makes du briefly immune to alle Schaden und verringert Parry's Abklingzeit um 50%."
+    },
+    "St_R_PhaseShift": {
+      "name": "Phasensprung",
+      "description": "Swaps positions mit an Verbündeter or Gegner Ziel. If den Ziel is an Gegner, verursacht 200% Schaden und briefly Betäubt them. Unstoppable Ziele will not be swapped. Shortly after, a Shockwave erupts, pulling in nahen Gegnern und verursacht 135% Schaden."
+    },
+    "St_R_PillarOfFlame": {
+      "name": "Flammensäule",
+      "description": "Summons a pillar of fire at den Ziel location, immediately verursacht 250% Feuerschaden to alle Gegner within den area, then verursacht 275% Feuerschaden über 2.4 Sekunden."
+    },
+    "St_R_PrecisionShot": {
+      "name": "Präzisionsschuss",
+      "description": "Hold den cast key to enter an aiming stance. After aiming, release to fire a penetrating round das verursacht 150% - 800% Schaden to alle getroffene Gegner und betäubt them for 0.5-2.5 seconds, based on how long du aimed. This Schaden ignores den des Ziels defense. Holding den stance für 1 Sekunden maximizes range, betäuben duration, und Schaden."
+    },
+    "St_R_QuickTrigger": {
+      "name": "Schnelles Ziehen",
+      "description": "Rapidly fire 3 piercing shots das deal 120% Schaden to up to 3 Gegner."
+    },
+    "St_R_RepulsiveShield": {
+      "name": "Abstoßender Schild",
+      "description": "Blocks Schaden from Gegner in front für 1.9 Sekunden. Jedes Mal Schaden is blocked, verursacht 240% Schaden to up to 4 Gegner in front."
+    },
+    "St_R_SanctuaryOfEl": {
+      "name": "Els Heiligtum",
+      "description": "Vesper blesses den surrounding ground für 10 Sekunden, verursacht 500% Lichtschaden to nahen Gegnern und granting Verbündete a 200% Barriere die anhält für 4 Sekunden. Allies on den blessed ground erhalte 18 Rüstung und 20% Angriffsgeschwindigkeit. Vesper himself receives 200% of den effect und becomes Unstoppable während under den effect."
+    },
+    "St_R_Scattershot": {
+      "name": "Streuschuss",
+      "description": "Fires 5 dark bullets das spread out in front. Each bullet verursacht 100% Dunkelheitsschaden und triggers 50% Angriff effects."
+    },
+    "St_R_SerpentineBlessing": {
+      "name": "Schlangensegen",
+      "description": "Grants Serpent's Blessing to Nachia und den Ziel Verbündeter für 12 Sekunden. This blessing grants 55 Rüstung und increases Angriffsgeschwindigkeit um 25% . Whenever den blessed Ziel performs a Standardangriffe, they stellt her 2.5% of their Maximale Lebenskraft, und their Angriff Ziel erleidet 100% Schaden und is stunned für 0.5 Sekunden. If den blessed Ziel is a summon, it stellt her 25% of its Maximale Lebenskraft."
+    },
+    "St_R_ShadowOverdrive": {
+      "name": "Schattenüberladung",
+      "description": "Channels für 0.7 Sekunden to erhöhen Bewegungstempo um 30% . After channeling, launches 5 homing missiles das deal 50% Dunkelheitsschaden to random nahen Gegnern und grants du 20% increased Angriffsgeschwindigkeit für 3 Sekunden."
+    },
+    "St_R_ShadowWalk": {
+      "name": "Schattengang",
+      "description": "Quickly dash forward und fire 3 dark shards at nahen Gegnern. Each shard verursacht 65% Dunkelheitsschaden und triggers 50% Angriff effects."
+    },
+    "St_R_Smite": {
+      "name": "Blitzschlag",
+      "description": "After a brief delay, strike den area mit lightning, verursacht 400% Lichtschaden to Gegner und betäubt them für 1 Sekunden. Has a 50% chance to set Gegner on fire."
+    },
+    "St_R_StaticDischarge": {
+      "name": "Statische Entladung",
+      "description": "Hold to Aufladung up lightning, gaining 40 Rüstung. When released, detonate den lightning to deal 150% – 780% Lichtschaden to Gegner based on Aufladung time, knocking them back und reducing their Bewegungstempo um 60% für 2 Sekunden. Der gained Rüstung disappears 1 seconds after den lightning detonates. Charging für 1 Sekunden maximizes den Schaden und area of effect."
+    },
+    "St_R_Tranquility": {
+      "name": "Seelenruhe",
+      "description": "Yubar channels für 1 Sekunden to regain tranquility, becoming Invulnerable, mit a 40% erhöhen in Bewegungstempo, und reducing den cooldowns of alle other Erinnerungen um 3.5 seconds."
+    },
+    "St_R_UnbreakableDetermination": {
+      "name": "Unbeugsamer Wille",
+      "description": "Resets den Abklingzeit of Swift Steps und Astrid's Masterpiece, verursacht 400% Schaden to nahen Gegnern, und enters den awakened state für 12 Sekunden. While awakened, erhält 25% Angriffsgeschwindigkeit und each Angriff triggers a lightning explosion, verursacht 90% Schaden to den Ziel und nahen Gegnern. When Astrid's Masterpiece triggers during den awakened state, recovers Lebenskraft equal to 4% of deine missing Lebenskraft."
+    },
+    "St_U_BeamOfBalance": {
+      "name": "Strahl des Gleichgewichts",
+      "description": "Ascend für 8 Sekunden, becoming Invulnerable. During this time, control a Verlangsamung-moving Beam of Balance das verursacht 350% Schaden pro Sekunde to Gegner und heilt Verbündete for 150% pro Sekunde."
+    },
+    "St_U_Burrow": {
+      "name": "Eingraben",
+      "description": "Burrow underground, becoming Invulnerable für 2.5 Sekunden und erhöht Bewegungstempo um 30% . Emerging knocks up und betäubt nahen Gegnern für 1 Sekunden und verursacht 550% Schaden. Can be recast to end den effect early."
+    },
+    "St_U_HerWorld": {
+      "name": "Ihre Welt",
+      "description": "Turn into a Black Hole für 7 Sekunden. Alle Gegner are pulled towards den Black Hole, und Gegner in contact mit it erleiden 500% Lichtschaden pro Sekunde. At den end of its duration, den Black Hole explodes, verursacht 1,200% Lichtschaden to alle nahen Gegnern und betäubt them für 2.5 Sekunden. In den Black Hole state, erhalte 120 Rüstung und become immune to death."
+    },
+    "St_U_Hysteria": {
+      "name": "Hysterie",
+      "description": "Embrace intense rage für 6 Sekunden, during which du can't cast other Erinnerungen. During this time, unleash continuous claw slashes das deal 100% Dunkelheitsschaden to Gegner und stellt her deine Lebenskraft for 13% . If deine Lebenskraft is below 40%, Heilung ist erhöht um 150%. Triggers Angriff effects on den first Ziel hit. Slashes faster mit higher Angriffsgeschwindigkeit."
+    },
+    "St_U_ShoutOfOblivion": {
+      "name": "Schrei des Vergessens",
+      "description": "Become Invulnerable briefly während channeling, then unleash a powerful cry forward, verursacht 1,300% Dunkelheitsschaden to alle Gegner und betäubt them für 3 Sekunden. This Schaden erhöht sich um 25% for each current Hunt Threat Level."
+    },
+    "St_U_WorldCracker": {
+      "name": "Weltenbrecher",
+      "description": "Channels a powerful beam das verursacht 575% Lichtschaden pro Sekunde to alle Gegner it touches. Du can't move während channeling, but can maintain it indefinitely until canceled."
+    },
+    "St_R_DarkGrenade": {
+      "name": "Dunkle Granate",
+      "description": "Throws a dark grenade at den Ziel location. Der grenade explodes, scattering 7 dark shards in alle directions. Each shard triggers 50% Angriff Effect und verursacht 150% Dunkelheitsschaden to den first getroffener Gegner. If multiple shards hit den same Ziel, subsequent shards deal 50% Schaden. Has a 100% chance to fire 4 additional dark shards und Betäuben Gegner for 1 sec."
+    },
+    "St_R_Somersault": {
+      "name": "Salto",
+      "description": "Leap into den air for 0.5 sec, dodging Angriffe und becoming Invincible. Kritische Trefferchance erhöht sich um 30% for 4 sec. Attacks reduce den Abklingzeit of this Erinnerung um 0.3 sec."
+    },
+    "St_R_SummonLittleBaam": {
+      "name": "Seelenverwandter",
+      "description": "Summons a stationary Little Baam at den Ziel location. Little Baam has 119 Lebenskraft und 50 Rüstung, stays on den battlefield for up to 20 seconds, und Angriffe nahen Gegnern, verursacht 85% Lichtschaden. Du can maintain up to 10 at a time. Alle Aufladungen are restored at once."
+    }
+  },
+  "stars": {
+    "Se_Star_D_AbilityPower": {
+      "name": "Night Time",
+      "description": "Erhöht Zauberkraft um 2 ."
+    },
+    "Se_Star_D_AttackDamage": {
+      "name": "Aggressive Stance",
+      "description": "Erhöht Angriffskraft um 2 ."
+    },
+    "Se_Star_D_AttackSpeed": {
+      "name": "Hurricane",
+      "description": "Erhöht Angriffsgeschwindigkeit um 6% ."
+    },
+    "Se_Star_D_BossDamageAmp": {
+      "name": "Valiant Challenger",
+      "description": "Erhöht alle Schaden verursacht an Bosse um 10% ."
+    },
+    "Se_Star_D_CritChance": {
+      "name": "Lucky Clover",
+      "description": "Erhöht Kritische Trefferchance um 5% ."
+    },
+    "Se_Star_D_CritDamage": {
+      "name": "Powerful Blow",
+      "description": "Erhöht Kritischer Treffer Schaden um 15% ."
+    },
+    "Se_Star_D_DamageBonusOnAllElemental": {
+      "name": "Elementalist",
+      "description": "Alle Schaden du deal to Gegner affected um alle 4 elements ist erhöht um 18% ."
+    },
+    "Se_Star_D_DarkAmp": {
+      "name": "Corrupted Mind",
+      "description": "Deine Dunkelheitsschaden against Gegner exposed to Dark ist erhöht um an additional 1.5% per stack."
+    },
+    "Se_Star_D_FireAmp": {
+      "name": "Crimson Flame",
+      "description": "Erhöhe Verbrennung Schaden um 30% ."
+    },
+    "Se_Star_D_LightAmp": {
+      "name": "Daylight",
+      "description": "Deine Lichtschaden against Gegner exposed to Light ist erhöht um an additional 1.5% per stack."
+    },
+    "Se_Star_D_LowerADScalingAP": {
+      "name": "Spirit Blossom",
+      "description": "Lose 35% Angriffskraft, but erhalte 1.5 Zauberkraft pro Stufe."
+    },
+    "Se_Star_D_LowerAPScalingAD": {
+      "name": "Beastification",
+      "description": "Lose 40% Zauberkraft, but erhalte 1 Angriffskraft pro Stufe."
+    },
+    "Se_Star_D_LowerASHigherAD": {
+      "name": "Strength Enhancement",
+      "description": "Verringert Angriffsgeschwindigkeit um 20%. Erhöht Angriffskraft um 8 ."
+    },
+    "Se_Star_D_ScalingAbilityPower": {
+      "name": "Mature Mind",
+      "description": "Erhalte 2 Zauberkraft jedes Mal du erreichst Stufen 5, 10, 15, und 20."
+    },
+    "Se_Star_D_ScalingAttackDamage": {
+      "name": "Destructive Nature",
+      "description": "Erhalte 2 Angriffskraft jedes Mal du erreichst Stufen 5, 10, 15, und 20."
+    },
+    "Se_Star_D_ScalingAttackSpeedWithPenalty": {
+      "name": "Gathering Storm",
+      "description": "Angriffsgeschwindigkeit wird verringert um 10%. Angriffsgeschwindigkeit erhöht sich um 1% jedes Mal du Stufenaufstieg."
+    },
+    "Se_Star_D_ShieldDamageAmp": {
+      "name": "Phantom Breaker",
+      "description": "Erhöht Schaden to Schilde um 20% ."
+    },
+    "Se_Star_D_TempAbilityPower": {
+      "name": "Awakened Magic",
+      "description": "Erhöht Zauberkraft um 14 während completing den first 3 Welten."
+    },
+    "Se_Star_D_TempAttackDamage": {
+      "name": "Burning Bloodlust",
+      "description": "Erhöht Angriffskraft um 14 until du complete den first 3 Welt."
+    },
+    "Se_Star_D_UltimateChargeSpeed": {
+      "name": "Ultimate Malice",
+      "description": "Erhöht Ultimative Fähigkeit Aufladung speed um 20% ."
+    },
+    "Se_Star_I_DismantleReroll": {
+      "name": "Trading Fates",
+      "description": "Der first time du Dismantle an Essenz or Erinnerung, it is replaced mit a random item of den same rarity stattdessen of being dismantled. Kann bis zu 1 Mal pro Welt ausgelöst werden."
+    },
+    "Se_Star_I_AdditionalChaosChance": {
+      "name": "Primordial Chaos",
+      "description": "When Chaos is obtained as a reward, there is a 12% chance to erhalte one additional Chaos."
+    },
+    "Se_Star_I_DismantleBonus": {
+      "name": "Efficient Extraction",
+      "description": "Erhöht den amount of Traumstaub gained from dismantling Erinnerungen or Essenzen um 7% ."
+    },
+    "Se_Star_I_DreamDustOnKillChance": {
+      "name": "Dismantle and Analyze",
+      "description": "Defeating an Gegner has a 12% chance to grant 2 Traumstaub."
+    },
+    "Se_Star_I_FirstGemUpgrade": {
+      "name": "Beginner's Luck",
+      "description": "Erhöht den quality of den first Essenz du equip um 40% ."
+    },
+    "Se_Star_I_GemOnMiniBossKill": {
+      "name": "Bizarre Spoils",
+      "description": "Defeating a Mini Boss has a 40% chance to grant a random Essenz."
+    },
+    "Se_Star_I_GoldPerCrit": {
+      "name": "Pickpocket",
+      "description": "Erhalte 0.7 Gold den first time a Critical Angriff hits each Gegner."
+    },
+    "Se_Star_I_GoldRiskAndReturn": {
+      "name": "Glass Pockets",
+      "description": "Erhöht Gold gained from kills um 15% , but du lose 2% Gold when taking Schaden from an Gegner."
+    },
+    "Se_Star_I_KillGoldBonus": {
+      "name": "Wealth Accumulation",
+      "description": "Erhöht den amount of Gold gained from defeating Gegner um 4% ."
+    },
+    "Se_Star_I_MawDiscountAndProtection": {
+      "name": "Sparkling Clean Maw",
+      "description": "Verringert den cost of den Maw of Doom um 20% . Der Maw no longer destroys items it consumes, stattdessen resetting their Stufe or quality."
+    },
+    "Se_Star_I_MoreShopItems": {
+      "name": "Monstrous Charm",
+      "description": "There is a 50% chance for Jonas to offer 2 additional items for sale."
+    },
+    "Se_Star_I_MoreShrineItems": {
+      "name": "Liminal Expansion",
+      "description": "Retrospection Remnant und Enlightenment Remnant have a 50% chance to offer one additional choice."
+    },
+    "Se_Star_I_ShopDiscount": {
+      "name": "Sharp Negotiator",
+      "description": "Der Gold price of items sold um Händler wird verringert um 10% ."
+    },
+    "Se_Star_I_ShopRefreshToken": {
+      "name": "Black Market",
+      "description": "Erhalte 1 Platinum Coins at den start of an Abenteuers und whenever du move to a new Welt, up to a maximum of 3. Use these coins to refresh den Händler's inventory."
+    },
+    "Se_Star_I_StartGold": {
+      "name": "Initial Capital",
+      "description": "Erhalte 50 Gold at den start of deine Abenteuers."
+    },
+    "Se_Star_I_StartSkill": {
+      "name": "Intersecting Memories",
+      "description": "Acquire a random Stufe 1 Erinnerung at den start of deine Abenteuers."
+    },
+    "Se_Star_L_Armor": {
+      "name": "Stone Skin",
+      "description": "Erhöht Rüstung um 5 ."
+    },
+    "Se_Star_L_ArmorOnTravel": {
+      "name": "Ragged Armor",
+      "description": "Erhalte 2.5 Rüstung every time du enter a new Welt."
+    },
+    "Se_Star_L_DamageReductionFromChilled": {
+      "name": "Cold Affinity",
+      "description": "Schaden erlitten from Gegner afflicted mit Chill wird verringert um 25% ."
+    },
+    "Se_Star_L_DodgeCooldown": {
+      "name": "Threat Detection",
+      "description": "Verringert Dodge's Abklingzeit um 10% ."
+    },
+    "Se_Star_L_DodgeCooldownOnLowHealth": {
+      "name": "Instinctive Movement",
+      "description": "When Lebenskraft is below 50%, Dodge Abklingzeit wird verringert um 20% ."
+    },
+    "Se_Star_L_ElementalResistance": {
+      "name": "Elemental Resistance",
+      "description": "Verringert den duration of elemental effects on du um 40% . For Verbrennung, Schaden is reduced ."
+    },
+    "Se_Star_L_FatalHitProtection": {
+      "name": "Second Wind",
+      "description": "Wenn du tödlichen Schaden erleidest, ignorierst du diesen und wirst für 1 Sekunden unverwundbar. This can only occur once per game."
+    },
+    "Se_Star_L_GuidanceShrineDiscount": {
+      "name": "Unconditional Love",
+      "description": "Verringert den cost of Shrine of Guidance um 25% ."
+    },
+    "Se_Star_L_HealOnAttack": {
+      "name": "Wicked Vitality",
+      "description": "Standardangriffe stellt her 0.40% of deine Maximale Lebenskraft bei Treffer. This Heilung ist erhöht um 150% on a Kritischer Treffer."
+    },
+    "Se_Star_L_HealOnKill": {
+      "name": "Combat First Aid",
+      "description": "Restore 1.00% of deine Maximale Lebenskraft whenever du kill an Gegner."
+    },
+    "Se_Star_L_IgnoreDelusion": {
+      "name": "Anchor to Reality",
+      "description": "Ignore a Delusion effect alle 15 Sekunden."
+    },
+    "Se_Star_L_MaxHealth": {
+      "name": "Empowered Persistence",
+      "description": "Erhöht Maximale Lebenskraft um 60 ."
+    },
+    "Se_Star_L_PeriodicScalingArmor": {
+      "name": "Layered Scales",
+      "description": "Erhalte 7 Defense for every 3 Welten visited."
+    },
+    "Se_Star_L_PotionChance": {
+      "name": "Asclepius",
+      "description": "Erhöht den chance for a Lebenskraft Potion to appear um 25% ."
+    },
+    "Se_Star_L_PotionHealAmount": {
+      "name": "Suspicious Mixture",
+      "description": "Erhöht den Heilung amount of Lebenskraft Potions um 55% ."
+    },
+    "Se_Star_L_PotionOnBuyOrSell": {
+      "name": "Humble Freebie",
+      "description": "Erhalte a Lebenskraft Potion when du buy or sell an item at den shop. This can trigger up to 1 times per merchant."
+    },
+    "Se_Star_L_ReceivedHealingAndShieldBonus": {
+      "name": "Regenerative Skin",
+      "description": "Erhöht received Healing und Barriere amounts um 12% ."
+    },
+    "Se_Star_L_ScalingMaxHealth": {
+      "name": "Steel Refinement",
+      "description": "Erhöht Maximale Lebenskraft um 15 jedes Mal du Stufenaufstieg."
+    },
+    "Se_Star_L_TempArmor": {
+      "name": "Unfounded Confidence",
+      "description": "Erhalte 7 Defense for den first 2 Welten."
+    },
+    "Se_Star_Aurena_D_AbilityPower": {
+      "name": "Drawing a Conclusion",
+      "description": "Erhöht Zauberkraft um 3 ."
+    },
+    "Se_Star_Aurena_D_AtkSpd": {
+      "name": "Hypothesis Formation",
+      "description": "Erhöht Angriffsgeschwindigkeit um 5% ."
+    },
+    "Se_Star_Aurena_D_AttackDamage": {
+      "name": "Experiment and Validation",
+      "description": "Erhöht Angriffskraft um 3 ."
+    },
+    "Se_Star_Aurena_D_BonusStatOnLowHp": {
+      "name": "Resonance Effect",
+      "description": "When deine Lebenskraft is below 50%, deine Angriffskraft und Zauberkraft erhöhen um 8% ."
+    },
+    "Se_Star_Aurena_F_CR_EarnGold": {
+      "name": "Master Alchemist",
+      "description": "Chain Reaction earns 2 Gold pro Sekunde for each Gegner inside den sigil."
+    },
+    "Se_Star_Aurena_F_CR_GlobalHeal": {
+      "name": "Golden Mind",
+      "description": "Chain Reaction applies 70% Heilung to Reisende even if they are not inside den sigil."
+    },
+    "Se_Star_Aurena_F_CR_NoHealCooldownReduction": {
+      "name": "Golden Wind",
+      "description": "Chain Reaction no longer heilt, but its Abklingzeit wird verringert um 15% jedes Mal an Gegner dies from den sigil."
+    },
+    "Se_Star_Aurena_F_DT_LowerThresholdBiggerHeals": {
+      "name": "Extremely Dangerous Theory",
+      "description": "Der Lebenskraft threshold for empowered casts of Dangerous Theory is reduced to 40%, but Heilung ist erhöht um 40%."
+    },
+    "Se_Star_Aurena_F_DT_TwiceWithPenalty": {
+      "name": "Follow-up Research",
+      "description": "Dangerous Theory's Abklingzeit erhöht sich um 1 seconds und it can only be used as an verstärkten Zauber, but it empowers 2 Standardangriffe."
+    },
+    "Se_Star_Aurena_F_DT_UnstoppableAndRemoveDelusion": {
+      "name": "Unparalleled Genius",
+      "description": "When du cast Dangerous Theory, become Unstoppable für 1.5 Sekunden und remove Delusional effects."
+    },
+    "Se_Star_Aurena_F_GB_LessDamageLessSacrifice": {
+      "name": "Loose Dismantle",
+      "description": "Golden Explosion's Schaden wird verringert um 40%, but den Lebenskraft sacrificed is also verringert um 30%."
+    },
+    "Se_Star_Aurena_F_GB_NoSacrificeAfterDodge": {
+      "name": "Dismantle, Dissolve, Understanding",
+      "description": "If du cast Golden Explosion within 3 seconds after using Dodge, no Lebenskraft is sacrificed. This only applies im Kampf."
+    },
+    "Se_Star_Aurena_F_GB_NoWitherNoSacrifice": {
+      "name": "Strong Bond",
+      "description": "If du cast Golden Explosion mit no Wither stacks, no Lebenskraft is sacrificed. This only applies im Kampf."
+    },
+    "Se_Star_Aurena_F_RE_AtkEffect": {
+      "name": "Sharp Shards",
+      "description": "Each Gold Shard from Reduction löst Angriffseffekte aus on den first getroffener Gegner."
+    },
+    "Se_Star_Aurena_F_RE_CooldownButNoHeal": {
+      "name": "Transmutation",
+      "description": "Reduction no longer stellt her Lebenskraft, but its Abklingzeit wird verringert um 70%."
+    },
+    "Se_Star_Aurena_F_RE_MoreProjMoreSacrifice": {
+      "name": "Enhanced Dismantling Force",
+      "description": "Reduction fires 1 more Gold Shards, but den amount of Lebenskraft sacrificed increases to 15%."
+    },
+    "Se_Star_Aurena_I_BonusFromStones": {
+      "name": "Component Analysis",
+      "description": "Erhöht den resources gained from Gold Shards und Traumstaub Shards um 40% ."
+    },
+    "Se_Star_Aurena_I_GoldEveryZone": {
+      "name": "Glittering Golden Antlers",
+      "description": "Erhalte 60 Gold every time du enter a new Welt."
+    },
+    "Se_Star_Aurena_I_GoldOnMerchantDamage": {
+      "name": "Fun Experiment",
+      "description": "Erhalte 4 Gold jedes Mal du Schaden a Händler, up to a maximum of 40 Gold."
+    },
+    "Se_Star_Aurena_I_PotionGold": {
+      "name": "Equivalent Exchange",
+      "description": "Erhalte 10 Gold jedes Mal du acquire a Lebenskraft Potion."
+    },
+    "Se_Star_Aurena_I_RevealWorld": {
+      "name": "Anguillian Hypersense",
+      "description": "When entering a Welt, reveal 3 random locations."
+    },
+    "Se_Star_Aurena_L_Armor": {
+      "name": "Beautiful Plumage",
+      "description": "Erhöht Rüstung um 3 ."
+    },
+    "Se_Star_Aurena_L_ArmorOnLowHp": {
+      "name": "Feather Oil",
+      "description": "Erhöht Rüstung um 30 when deine Lebenskraft is below 40%."
+    },
+    "Se_Star_Aurena_L_HealAmpOnLowHp": {
+      "name": "Autophagy",
+      "description": "Erhöht Heilung given und received um 15% when deine Lebenskraft is below 50%."
+    },
+    "Se_Star_Aurena_L_HealAmpWithPenalty": {
+      "name": "Experimental Hypothesis",
+      "description": "Erhöht Schaden erlitten from Gegner um 20%, but increases Heilung given und received um 15% ."
+    },
+    "Se_Star_Aurena_L_ShareHeal": {
+      "name": "Circulating Life",
+      "description": "Wenn du Lebenskraft regenerierst, heilen a nahen Verbündeten other than dich selbst mit den niedrigsten Lebenskraft for 20% of den amount healed."
+    },
+    "Se_Star_Aurena_L_SpeedOnDamage": {
+      "name": "Eel-like Agility",
+      "description": "When du erleiden Schaden, dein Bewegungstempo erhöht sich um 10% für 2 Sekunden."
+    },
+    "Se_Star_Bismuth_D_AtkSpd": {
+      "name": "Speed Reading",
+      "description": "Erhöht Angriffsgeschwindigkeit um 9% ."
+    },
+    "Se_Star_Bismuth_D_AtkSpdFromDismantle": {
+      "name": "Enlightenment",
+      "description": "Jedes Mal du dismantle a Erinnerung or Essenz, deine Angriffsgeschwindigkeit increases permanently um 3% , but Traumstaub gained wird verringert um 35%. Angriffsgeschwindigkeit erhöhen varies um rarity: 70%, 100%, 150%, 300%. If Bismuth does not have multiple copies of den same Reisender Erinnerung, den amount of Angriffsgeschwindigkeit gained ist erhöht um 50%."
+    },
+    "Se_Star_Bismuth_D_BonusAttackEffect": {
+      "name": "Arrow of the Mind",
+      "description": "Deine Maximale Lebenskraft wird verringert um 15%, but in return, deine Standardangriffe have a 25% chance to fire an additional arrow das triggers an Angriff Effect. If Bismuth does not have multiple copies of den same Reisender Erinnerung, Maximale Lebenskraft is not reduced."
+    },
+    "Se_Star_Bismuth_D_Conquerer": {
+      "name": "Mental Attunement",
+      "description": "Erhalte 1 stack of Attunement mit each Standardangriffe, up to 8 stacks. Each stack increases deine Angriffskraft und Zauberkraft um 0.5 . Alle stacks are lost when du erleiden Schaden from Gegner."
+    },
+    "Se_Star_Bismuth_D_SkillHasteAndAutoCast": {
+      "name": "Self-Writing Story",
+      "description": "Erhöht Erinnerungstempo um 8 und most Erinnerungen will be automatically cast during combat."
+    },
+    "Se_Star_Bismuth_F_DM_BonusOnFullCharge": {
+      "name": "Overcharge",
+      "description": "Erhöht Distorted Mind's Abklingzeit um 1 seconds, but firing at maximum Aufladung increases den number of arrows um 2."
+    },
+    "Se_Star_Bismuth_F_DM_MoreShootNoMove": {
+      "name": "Artillery",
+      "description": "Erhöht den maximum number of arrows for Distorted Mind um 7, but du cannot move während charging."
+    },
+    "Se_Star_Bismuth_F_DM_NonFullChargeCooldown": {
+      "name": "Improvisation",
+      "description": "When du release Distorted Mind without fully charging, its Abklingzeit wird verringert um 50%."
+    },
+    "Se_Star_Bismuth_F_IN_Elementals": {
+      "name": "Diverse Topics",
+      "description": "Each soul missile from Pure Soul erhält a random elemental effect."
+    },
+    "Se_Star_Bismuth_F_IN_LessCooldownLessMissiles": {
+      "name": "Undervolting",
+      "description": "Pure Soul's soul missile count wird verringert um 2, but its Abklingzeit wird verringert um 50%."
+    },
+    "Se_Star_Bismuth_F_IN_MoreProjByAtkSpd": {
+      "name": "Say Hello to My Little Friends!",
+      "description": "Pure Soul's Abklingzeit erhöht sich um 2 seconds, but den number of soul missiles also erhöht sich um deine Angriffe pro Sekunde. If Bismuth does not have multiple copies of den same Reisender Erinnerung, den Abklingzeit is not increased."
+    },
+    "Se_Star_Bismuth_F_IT_AddedDurationOnHit": {
+      "name": "Extended Agony",
+      "description": "Tales of Hellfire's Abklingzeit erhöht sich um 1 seconds, but jedes Mal it einen Gegner trifft, its duration erhöht sich um 0.2 seconds, up to a maximum of 2 seconds."
+    },
+    "Se_Star_Bismuth_F_IT_InnerDamage": {
+      "name": "Furnace",
+      "description": "Tales of Hellfire's Schaden wird verringert um 40% but now also hits Gegner inside den ring."
+    },
+    "Se_Star_Bismuth_F_IT_SmallerRingMoreDamage": {
+      "name": "Close and Personal",
+      "description": "Tales of Hellfire's ring radius wird verringert um 35% but its Schaden ist erhöht um 35%."
+    },
+    "Se_Star_Bismuth_F_VH_FullCharge": {
+      "name": "No Longer Afraid",
+      "description": "Valiant Heart's Aufladungen now fully stellt her alle at once."
+    },
+    "Se_Star_Bismuth_F_VH_ResetOnDodge": {
+      "name": "Quick Decision",
+      "description": "Using Distorting Sprint resets den Abklingzeit of Valiant Heart, but it only hits up to 2 Gegner."
+    },
+    "Se_Star_Bismuth_F_VH_Shield": {
+      "name": "Steadfast Heart",
+      "description": "Valiant Heart's Abklingzeit ist erhöht um 1 seconds, but du erhalte a Barriere equal to 30% of den Schaden verursacht die anhält für 2.5 Sekunden. If Bismuth does not have multiple copies of den same Reisender Erinnerung, den amount of Barriere gained ist erhöht um 100%."
+    },
+    "Se_Star_Bismuth_I_DismantleMemoryDreamDust": {
+      "name": "Good Material",
+      "description": "Erhöhe den amount of Traumstaub obtained when dismantling Erinnerungen um 20% ."
+    },
+    "Se_Star_Bismuth_I_KnowledgeBook": {
+      "name": "Book of Knowledge",
+      "description": "Erhalte 1-4 Books of Knowledge for every boss du defeat. Each book grants a random stat equivalent to a Common-grade Chaos 15% . If Bismuth does not have multiple copies of den same Reisender Erinnerung, den amount of stats gained ist erhöht um 50%."
+    },
+    "Se_Star_Bismuth_I_RevealWorld": {
+      "name": "Mind's Eye",
+      "description": "When entering a Welt, reveal 2 random locations."
+    },
+    "Se_Star_Bismuth_I_SecretJournal": {
+      "name": "Secret Diary",
+      "description": "Start deine Abenteuers mit den Our Story Essenz. Its quality erhöht sich um 50% every time du defeat 75 Gegner und is completed when quality reaches 500%. When completed, this Essenz increases Bismuth's Zauberkraft und Angriffskraft um 10% , und enhances alle buffs from Distorting Sprint um 30% ."
+    },
+    "Se_Star_Bismuth_I_ShopDiscount": {
+      "name": "I'm Adorable",
+      "description": "Der Gold price of items sold um Händler wird verringert um 5% ."
+    },
+    "Se_Star_Bismuth_I_TreasureWithHealthPenalty": {
+      "name": "Beautiful Metal",
+      "description": "Start deine Abenteuers mit den Metallic Crystal Essenz. Du can sell this Essenz to Händler for 200 Gold, or dismantle it for 120 Traumstaub. However, losing this shard will reduce deine Maximale Lebenskraft um 15%."
+    },
+    "Se_Star_Bismuth_L_ContinuousSpeed": {
+      "name": "Light Footsteps",
+      "description": "While moving, Bewegungstempo gradually increases über 5 Sekunden, up to a maximum of 10% . This bonus disappears when du stop moving. If Bismuth doesn't have duplicates of den same Reisender Erinnerung, den Bewegungstempo bonus ist erhöht um 30%."
+    },
+    "Se_Star_Bismuth_L_DodgeNoDashMoreCharges": {
+      "name": "Shift in Thinking",
+      "description": "Distorting Sprint no longer dashes, but erhält 1 additional maximum Aufladungen."
+    },
+    "Se_Star_Bismuth_L_SecondWindWithPenalty": {
+      "name": "Two Souls",
+      "description": "Wenn du tödlichen Schaden erleidest, ignorierst du diesen und wirst für 1 Sekunden unverwundbar. However, a random Erinnerung is destroyed, und Identity Erinnerungen may also be destroyed. This can only occur once per game."
+    },
+    "Se_Star_Husk_D_AttackDamage": {
+      "name": "Purpose of My Existence",
+      "description": "Erhöht Angriffskraft um 4 ."
+    },
+    "Se_Star_Husk_D_CritAmp": {
+      "name": "Dance of Death",
+      "description": "Erhöht Kritischer Treffer Schaden um 15% ."
+    },
+    "Se_Star_Husk_D_DamageAmpOnLowHpTarget": {
+      "name": "Merciless",
+      "description": "Alle Schaden verursacht an Gegner mit Lebenskraft below 35% ist erhöht um 15% ."
+    },
+    "Se_Star_Husk_D_DamageOverTimeCritWithPenalty": {
+      "name": "Life Neglect",
+      "description": "Verringert Heilung received um 30%, but when a Kritischer Treffer lands, it verursacht additional Schaden equal to 15% of den Schaden über 2 Sekunden."
+    },
+    "Se_Star_Husk_D_DarkAttackWithPenalty": {
+      "name": "Soul Oil",
+      "description": "Deine Maximale Lebenskraft wird verringert um 15%, but deine Angriffsgeschwindigkeit erhöht sich um 8% und deine Standardangriffe deal Dunkelheitsschaden."
+    },
+    "Se_Star_Husk_D_MovementSkillHaste": {
+      "name": "Soul Acceleration",
+      "description": "Der Abklingzeit of alle Dash und Teleport Erinnerungen wird verringert um 10% ."
+    },
+    "Se_Star_Husk_D_ScalingAdAndAtkSpd": {
+      "name": "Perceive, Learn, Adapt",
+      "description": "Erhalte 1.5 Angriffskraft und 3% Angriffsgeschwindigkeit jedes Mal du erreichst Stufen 5, 10, 15, und 20."
+    },
+    "Se_Star_Husk_F_AS_AddedDurationOnHit": {
+      "name": "Chained Bloodlust",
+      "description": "During Annihilation Stance, jedes Mal deine Standardangriffe or Sword Energy einen Gegner trifft, its duration ist erhöht um 0.2 seconds."
+    },
+    "Se_Star_Husk_F_AS_NonUltimate": {
+      "name": "Controlled Madness",
+      "description": "Annihilation Stance becomes a regular ability mit a 14 second Abklingzeit, allowing du to use other Erinnerungen während it's active. Its Sword Energy Schaden und Angriffskraft bonus are verringert um 40%, it lasts für 4 Sekunden, und it no longer increases deine Dodge skill's Erinnerungstempo und Max Aufladungen."
+    },
+    "Se_Star_Husk_F_AS_NoShockwaveFasterAttack": {
+      "name": "Frenzied Blade Dance",
+      "description": "Annihilation Stance no longer fires Sword Energy, but stattdessen Angriffe 100% more frequently."
+    },
+    "Se_Star_Husk_F_LA_DodgeResetOnRed": {
+      "name": "Flow of Energy",
+      "description": "Laceration's Abklingzeit ist erhöht um 1 seconds, but casting Red Form resets den Abklingzeit of Flash Step."
+    },
+    "Se_Star_Husk_F_LA_QuickBlueForm": {
+      "name": "Rapid Draw",
+      "description": "Laceration's Abklingzeit wird verringert um 30% und Blue Form's cast time wird verringert um 40%, but it no longer grants Invulnerability."
+    },
+    "Se_Star_Husk_F_LA_SingleTargetCooldown": {
+      "name": "Precise Strike",
+      "description": "If Laceration hits only one Ziel, its Abklingzeit wird verringert um 30%."
+    },
+    "Se_Star_Husk_I_BossKillPlatinumCoin": {
+      "name": "Bounty",
+      "description": "When du defeat a boss, du have a 30% chance to obtain a Platinum Coin. This coin can refresh den Händler's inventory."
+    },
+    "Se_Star_Husk_I_ShopIntimidation": {
+      "name": "Creepy One-Eyed Doll",
+      "description": "Intimidate Händler to lower item prices. If du succeed (50% chance), den Gold price wird verringert um 50% . If du fail, it erhöht sich um 50%."
+    },
+    "Se_Star_Husk_L_DodgeChargesAndRangeWithPenalty": {
+      "name": "Gunpowder Propelled Leap",
+      "description": "Flash Step's Abklingzeit erhöht sich um 1 seconds, but its maximum Aufladungen erhöhen um 1 und its travel distance erhöht sich um 10% ."
+    },
+    "Se_Star_Husk_L_DodgeCooldownOnKillOrAttack": {
+      "name": "Complete Immersion",
+      "description": "When du kill an Gegner or perform a Standardangriffe on a boss, Flash Step's Abklingzeit wird verringert um 10% ."
+    },
+    "Se_Star_Husk_L_DodgeCooldownOnKillWithEmptyCharges": {
+      "name": "Transcendence",
+      "description": "Flash Step Abklingzeit ist erhöht um 1 seconds. When du have no Flash Step Aufladungen und kill an Gegner, its current Abklingzeit wird verringert um 40% ."
+    },
+    "Se_Star_Husk_L_FatalHitProtectionWithPenalty": {
+      "name": "Emergency Repair",
+      "description": "Wenn du tödlichen Schaden erleidest, ignorierst du diesen und wirst für 1 Sekunden unverwundbar, but deine Maximale Lebenskraft wird verringert um 15%. This can only occur once per game."
+    },
+    "Se_Star_Lacerta_D_AbilityPower": {
+      "name": "Lizard's Intellect",
+      "description": "Erhöht Zauberkraft um 4 ."
+    },
+    "Se_Star_Lacerta_D_AttackDamage": {
+      "name": "Premium Gunpowder",
+      "description": "Erhöht Angriffskraft um 4 ."
+    },
+    "Se_Star_Lacerta_D_AttackRange": {
+      "name": "Improvised Scope",
+      "description": "Erhöht Angriff Range um 0.5 m."
+    },
+    "Se_Star_Lacerta_D_AttackSpeed": {
+      "name": "Loading Mastery",
+      "description": "Erhöht Angriffsgeschwindigkeit um 6% ."
+    },
+    "Se_Star_Lacerta_F_HC_KnockbackAndSlow": {
+      "name": "Dirty Gunpowder",
+      "description": "Hand Cannon always knocks Gegner back und verringert their Bewegungstempo um 75% für 4 Sekunden."
+    },
+    "Se_Star_Lacerta_F_HC_NearDamage": {
+      "name": "Barasus's Fury",
+      "description": "Erhöht den Schaden verursacht durch Hand Cannon to nahen Gegnern um 150%."
+    },
+    "Se_Star_Lacerta_F_IR_AoEDamage": {
+      "name": "Explosive Ammunition",
+      "description": "Incendiary Rounds explode, damaging nahen Gegnern."
+    },
+    "Se_Star_Lacerta_F_IR_MoreShots": {
+      "name": "Cartridge Belt",
+      "description": "Incendiary Rounds's Abklingzeit erhöht sich um 2 seconds, but den number of bullets fired also erhöht sich um 2."
+    },
+    "Se_Star_Lacerta_F_PS_ChargeSpeed": {
+      "name": "Seasoned Aim",
+      "description": "Precision Shot's Aufladung speed erhöht sich um 33%."
+    },
+    "Se_Star_Lacerta_F_PS_CooldownReset": {
+      "name": "Special Operation",
+      "description": "Precision Shot's width verringert sich um 60%, but killing an Gegner mit den shot resets den Abklingzeit."
+    },
+    "Se_Star_Lacerta_F_PS_SlowerStronger": {
+      "name": "No Such Thing as Overkill",
+      "description": "Precision Shot's Aufladung speed verringert sich um 40%, but its Schaden erhöht sich um 50% und width um 30%."
+    },
+    "Se_Star_Lacerta_F_QT_AddedCharges": {
+      "name": "Quick Reload",
+      "description": "Quick Draw's Abklingzeit erhöht sich um 3 seconds, but it now recharges alle at once."
+    },
+    "Se_Star_Lacerta_F_QT_AttackEffect": {
+      "name": "Dream Ammunition",
+      "description": "Quick Draw löst Angriffseffekte aus."
+    },
+    "Se_Star_Lacerta_F_QT_RapidFire": {
+      "name": "Indiscriminate Barrage",
+      "description": "Quick Draw's Aufladung count wird verringert um 1, but it fires 6 shots."
+    },
+    "Se_Star_Lacerta_I_BonusFromStones": {
+      "name": "Rewarding Collection",
+      "description": "Breaking Gold Shards or Traumstaub Shards grants an additional 6 Gold und Traumstaub."
+    },
+    "Se_Star_Lacerta_I_BossBounty": {
+      "name": "Wild Monster Hunter",
+      "description": "Erhalte an additional 45 Gold jedes Mal du defeat a Boss."
+    },
+    "Se_Star_Lacerta_I_ShopDiscount": {
+      "name": "Skilled Negotiator",
+      "description": "Der Gold price of items sold um Händler wird verringert um 10% ."
+    },
+    "Se_Star_Lacerta_I_ShopMoreItemsWithPenalty": {
+      "name": "Northern Lizardman Bargaining",
+      "description": "Der Gold price of items sold um some Händler ist erhöht um 50% , but they offer 2 additional items for sale."
+    },
+    "Se_Star_Lacerta_L_DodgeCharges": {
+      "name": "Lizard Oil",
+      "description": "Dodge skill's Abklingzeit erhöht sich um 1.5 seconds, but it erhält 1 additional Aufladung."
+    },
+    "Se_Star_Lacerta_L_SpeedAfterDodge": {
+      "name": "Flexible Lizard",
+      "description": "Using Dodge increases dein Bewegungstempo um 20% für 1.5 Sekunden."
+    },
+    "Se_Star_Mist_I_CamillasGift": {
+      "name": "Camillas Geschenk",
+      "description": "Du begin deine Abenteuers mit Camilla's Gift. Camilla's Gift sells for 100 und increases in value um 200 jedes Mal du enter a new Welt. However, if Gegner Schaden drops deine health below 50%, den gift is destroyed."
+    },
+    "Se_Star_Mist_L_PotionShield": {
+      "name": "Honey-Glazed Fruit",
+      "description": "Lebenskraft Potions grant a Barriere equal to 50% of den Heilung provided."
+    },
+    "Se_Star_Mist_D_AttackDamage": {
+      "name": "Astrid's Smithing",
+      "description": "Erhöht Angriffskraft um 3 ."
+    },
+    "Se_Star_Mist_D_BonusOnDash": {
+      "name": "Strike the Weakness!",
+      "description": "After dash or teleport, erhalte 5 Angriffskraft und 10% Kritische Trefferchance für 2.5 Sekunden."
+    },
+    "Se_Star_Mist_D_BossDamageOnHighHp": {
+      "name": "Duelist's Focus",
+      "description": "When deine Lebenskraft is above 90%, alle Schaden verursacht an any Boss ist erhöht um 20% ."
+    },
+    "Se_Star_Mist_D_HunterDamage": {
+      "name": "Finally, A Worthy Opponent",
+      "description": "Alle Schaden verursacht an Hunters ist erhöht um 20% ."
+    },
+    "Se_Star_Mist_D_ScalingAD": {
+      "name": "Dream-Infused Saber",
+      "description": "Erhalte 2 Angriffskraft jedes Mal du erreichst Stufen 5, 10, 15, und 20."
+    },
+    "Se_Star_Mist_F_FL_DecreasedCooldownAndCharge": {
+      "name": "Blooming Dream",
+      "description": "Flèche comes mit 2 fewer Aufladungen, but its Abklingzeit wird verringert um 6 seconds."
+    },
+    "Se_Star_Mist_F_FL_Lightning": {
+      "name": "Lightning Breath",
+      "description": "Flèche's Schaden is converted to Lichtschaden, und du teleport stattdessen of dashing."
+    },
+    "Se_Star_Mist_F_FL_MaxRangeExplosion": {
+      "name": "Coup de Grâce",
+      "description": "When Flèche hits at maximum range, its Schaden ist erhöht um 80% und it explodes, damaging a wide area."
+    },
+    "Se_Star_Mist_F_LG_IncreasedCooldownReduction": {
+      "name": "Cutting Through Wind",
+      "description": "Lunge verursacht 50% reduced Schaden, but du erhalte 100% increased Abklingzeit reduction when Astrid's Masterpiece triggers."
+    },
+    "Se_Star_Mist_F_LG_RangeAndSpeed": {
+      "name": "West Wind",
+      "description": "Erhöht den cast range of Lunge um 33%."
+    },
+    "Se_Star_Mist_F_LG_SingleTarget": {
+      "name": "Focused Strike",
+      "description": "Lunge now hits only a single Ziel, but its Abklingzeit wird verringert um 1.5 seconds und its Schaden ist erhöht um 100%. It also knocks back Gegner."
+    },
+    "Se_Star_Mist_F_PR_AllDirections": {
+      "name": "Wide Vision",
+      "description": "Parry's Abklingzeit ist erhöht um 1.5 seconds, but du can parry Angriffe from alle directions."
+    },
+    "Se_Star_Mist_F_PR_PerfectParry": {
+      "name": "The Best Offense is Defense",
+      "description": "Parry's Abklingzeit wird verringert um 4 seconds, but den effective parry window wird verringert um 40%."
+    },
+    "Se_Star_Mist_F_PR_ShieldAndCrit": {
+      "name": "Charged Saber",
+      "description": "After successfully Parrying, deine next Angriff becomes a critical strike, und du erhalte a shield equal to 250% of den parried Schaden das decays über 4 Sekunden. Der shield's duration erhöht sich um 0.5 seconds jedes Mal du enhance Parry."
+    },
+    "Se_Star_Mist_F_UD_ExplosionDamage": {
+      "name": "Determined Explosion",
+      "description": "Unbreakable Determination's duration wird verringert um 30%, but den initial explosion's Schaden ist erhöht um 200%."
+    },
+    "Se_Star_Mist_F_UD_HealLostHealth": {
+      "name": "Two Hearts",
+      "description": "Casting Unbreakable Determination stellt her 35% of missing Lebenskraft."
+    },
+    "Se_Star_Mist_I_BonusOnCatPet": {
+      "name": "Cat Lover",
+      "description": "Erhalte 800 Gold und 800 Traumstaub when petting a Cat."
+    },
+    "Se_Star_Mist_I_StartGoldWithPenalty": {
+      "name": "Noble Lineage",
+      "description": "Du begin deine Abenteuers mit 150 Gold, but den Gold price of Händler items ist erhöht um 10%."
+    },
+    "Se_Star_Mist_L_AddedDodgeWithPenalty": {
+      "name": "Light Armament",
+      "description": "Schaden erlitten from Gegner ist erhöht um 25% , but du erhalte 1 additional Aufladung for deine Dodge."
+    },
+    "Se_Star_Mist_L_ArmorWithPenalty": {
+      "name": "Plate Pauldrons",
+      "description": "Deine Rüstung ist erhöht um 15 , but this effect disappears für 8 Sekunden when du erleiden Schaden from Gegner."
+    },
+    "Se_Star_Mist_L_DodgeCooldownWithPenalty": {
+      "name": "Balestra",
+      "description": "Deine Dodge has 1 fewer maximum Aufladung, but its Abklingzeit wird verringert um 0.8 seconds."
+    },
+    "Se_Star_Mist_L_MovSpeed": {
+      "name": "Light as a Feather",
+      "description": "Bewegungstempo ist erhöht um 3% . When deine Lebenskraft is above 90%, this effect ist erhöht um 50%."
+    },
+    "Se_Star_Nachia_D_AbilityPower": {
+      "name": "Guardian of Order",
+      "description": "Erhöht Zauberkraft um 4 ."
+    },
+    "Se_Star_Nachia_D_CanineLover": {
+      "name": "Dog Lover",
+      "description": "When a canine monster or summon dies nearby, Nachia becomes enraged für 5 Sekunden, erhöht her Angriffsgeschwindigkeit um 15% . However, Nachia's Schaden to canine monsters wird verringert um 30%."
+    },
+    "Se_Star_Nachia_D_SkillHaste": {
+      "name": "Gentle Breeze",
+      "description": "Erhöht Erinnerungstempo um 5 ."
+    },
+    "Se_Star_Nachia_D_SummonAtkSpd": {
+      "name": "Enhanced Ferocity",
+      "description": "Erhöht den Angriffsgeschwindigkeit of alle summons um 9% ."
+    },
+    "Se_Star_Nachia_F_MP_NachiaHeal": {
+      "name": "Pact of Destiny",
+      "description": "Nachia also receives 50% of den Heilung from Moonlight Pact's cast effect."
+    },
+    "Se_Star_Nachia_F_MP_NoJump": {
+      "name": "Death Waltz",
+      "description": "Moonlight Pact's Aufladung count erhöht sich um 1, but on cast, Fenrir instantly slashes a wide circular area stattdessen of leaping."
+    },
+    "Se_Star_Nachia_F_MP_StrongerFenrirNoCast": {
+      "name": "Lone Wolf",
+      "description": "Du can no longer cast Moonlight Pact, but Fenrir's Rüstung erhöht sich um 60 und his Standardangriffe Schaden erhöht sich um 30%."
+    },
+    "Se_Star_Nachia_F_NW_LessCooldownLessAtkSpd": {
+      "name": "Micro-managing",
+      "description": "Nature's Whisper's Abklingzeit wird verringert um 80%, but den Angriffsgeschwindigkeit bonus is also verringert um 50%."
+    },
+    "Se_Star_Nachia_F_NW_MovSpeed": {
+      "name": "Fetch!",
+      "description": "Targets also erhalte Bewegungstempo equal to 80% of den Angriffsgeschwindigkeit bonus from Nature's Whisper."
+    },
+    "Se_Star_Nachia_F_NW_Teleport": {
+      "name": "Nature's Command",
+      "description": "Nature's Whisper instantly teleports summons to den Ziel location."
+    },
+    "Se_Star_Nachia_F_SB_DurationBonus": {
+      "name": "Merciful Blessing",
+      "description": "Erhöht den duration of Serpent's Blessing um 4 seconds."
+    },
+    "Se_Star_Nachia_F_SB_SecondWind": {
+      "name": "Immortal Protection",
+      "description": "When an Verbündeter affected um Serpent's Blessing would erleiden lethal Schaden, den blessing is immediately removed stattdessen und they recover 50% of their Maximale Lebenskraft."
+    },
+    "Se_Star_Nachia_F_SB_StrongerBuffNoSelf": {
+      "name": "Serpent's Love",
+      "description": "Serpent's Blessing's Angriffsgeschwindigkeit bonus erhöht sich um 50%, but it no longer buffs dich selbst when targeting an Verbündeter."
+    },
+    "Se_Star_Nachia_F_SC_AtkEffect": {
+      "name": "Sharp Claws",
+      "description": "Der Leaf Hounds from Sylvan Call trigger 30% Angriff effects mit their Standardangriffe."
+    },
+    "Se_Star_Nachia_F_SC_AtkSpd": {
+      "name": "Accelerated Life",
+      "description": "Leaf Hounds from Sylvan Call have a shorter duration um 3 seconds, but their Angriffsgeschwindigkeit erhöht sich um 50% für 5 Sekunden after being summoned."
+    },
+    "Se_Star_Nachia_F_SC_MoreSummons": {
+      "name": "More Hounds!",
+      "description": "Der duration of Sylvan Call Leaf Hounds wird verringert um 3 seconds, but den maximum Aufladung count erhöht sich um 1 und den maximum number of summons also erhöht sich um 1."
+    },
+    "Se_Star_Nachia_I_ForestKillDreamDust": {
+      "name": "Reaping Life",
+      "description": "Erhöht Bewegungstempo um 8% in den Forest of Turbulence und grants 0.5 Traumstaub for each Gegner killed."
+    },
+    "Se_Star_Nachia_I_ForestShopDiscount": {
+      "name": "Long Time No See! Miss Me?",
+      "description": "Der Gold price of items sold um merchants in den Forest of Turbulence wird verringert um 30% ."
+    },
+    "Se_Star_Nachia_I_ForestStartDreamDust": {
+      "name": "Refreshing Morning Dew",
+      "description": "Erhalte 100 Traumstaub jedes Mal du visit den Forest of Turbulence."
+    },
+    "Se_Star_Nachia_I_SummonKillGold": {
+      "name": "Hunting Training",
+      "description": "When a summon kills an Gegner mit a Standardangriffe, there's a 25% chance to erhalte 2 additional Gold."
+    },
+    "Se_Star_Nachia_L_AllyUnstoppable": {
+      "name": "Bestow Willpower",
+      "description": "When du apply a buff to an Verbündeter, they become Unstoppable für 1.5 Sekunden. This effect has a Abklingzeit of 5 seconds per Ziel."
+    },
+    "Se_Star_Nachia_L_HealAndShieldAmp": {
+      "name": "Life is Sacred",
+      "description": "Erhöht den Heilung und Barriere du give to dich selbst um 5% , und to Verbündete um 15% ."
+    },
+    "Se_Star_Nachia_L_SelfWaltz": {
+      "name": "Waltz Practice",
+      "description": "Der buffs from Dreamy Waltz also apply to dich selbst at 50% effectiveness."
+    },
+    "Se_Star_Nachia_L_SummonBonus": {
+      "name": "Steadfast Bond",
+      "description": "When Nachia's summons are nearby, her Rüstung erhöht sich um 6 und den Heilung und Barriere she gives to her summons erhöhen um 15% ."
+    },
+    "Se_Star_Nachia_L_WaltzArmor": {
+      "name": "Protective Dance",
+      "description": "Dreamy Waltz's Abklingzeit erhöht sich um 2.2 seconds, but its effect range ist erhöht um 25% und den des Ziels Rüstung erhöht sich um 50."
+    },
+    "Se_Star_Nachia_L_WaltzDurationWithPenalty": {
+      "name": "Impressive Dance Steps",
+      "description": "Dreamy Waltz's Aufladung count verringert sich um 1, but den duration of its buffs erhöht sich um 50% ."
+    },
+    "Se_Star_Vesper_D_ADWithNearbyBurning": {
+      "name": "Solar Praise",
+      "description": "Erhöht Angriffskraft um 10% when there are campfires, lava, or brennend Gegner or Verbündete nearby."
+    },
+    "Se_Star_Vesper_D_AtkSpd": {
+      "name": "Pulverizer",
+      "description": "Erhöht Angriffsgeschwindigkeit um 9% ."
+    },
+    "Se_Star_Vesper_D_AtkSpdWithPenalty": {
+      "name": "Reckless Fury",
+      "description": "Maximale Lebenskraft wird verringert um 20% but Angriffsgeschwindigkeit ist erhöht um 10% ."
+    },
+    "Se_Star_Vesper_D_BossHunterAmpWithPenalty": {
+      "name": "Grand Purpose",
+      "description": "Maximale Lebenskraft wird verringert um 10% but Lichtschaden und Feuerschaden verursacht an Bosse und Hunters ist erhöht um 20% ."
+    },
+    "Se_Star_Vesper_D_ConvertAPToAD": {
+      "name": "Hammer of Divinity",
+      "description": "Erhalte Angriffskraft equal to 25% of deine Zauberkraft."
+    },
+    "Se_Star_Vesper_F_BS_AddedDurationPerAtk": {
+      "name": "Endless Hammering",
+      "description": "Each Standardangriffe during Baptism of den Sun extends its duration um 0.2 seconds."
+    },
+    "Se_Star_Vesper_F_BS_ADWithArmor": {
+      "name": "No Pain, No Gain",
+      "description": "Baptism of den Sun grants Angriffskraft stattdessen of Angriffsgeschwindigkeit um den same amount, und grants 10 Rüstung for each Gegner getroffen von den initial explosion. Hitting a boss grants 40 Rüstung ."
+    },
+    "Se_Star_Vesper_F_BS_MovSpd": {
+      "name": "Invigorating Heat",
+      "description": "Baptism of den Sun grants Bewegungstempo equal to 50% of den Angriffsgeschwindigkeit bonus."
+    },
+    "Se_Star_Vesper_F_CS_ColdDamage": {
+      "name": "Cold Fury",
+      "description": "Cruel Sun's Schaden is converted to Kälteschaden, den betäuben duration ist erhöht um 2 seconds, und den Rüstung it grants ist erhöht um 50%."
+    },
+    "Se_Star_Vesper_F_CS_LingeringBenefits": {
+      "name": "Embers",
+      "description": "Der Unstoppable status und Rüstung bonus from Cruel Sun persist für 2.5 Sekunden after channeling ends."
+    },
+    "Se_Star_Vesper_F_CS_UnlockMoveWithPenalty": {
+      "name": "Pride Flare",
+      "description": "Erhöht Cruel Sun's Schaden um 25% und allows du to move während channeling, but du no longer erhalte an Rüstung bonus."
+    },
+    "Se_Star_Vesper_F_DP_FarTargetBonus": {
+      "name": "Momentum",
+      "description": "Verringert Maximale Lebenskraft um 15%, but increases Discipline's cast range um 30%. Der farther du are from deine Ziel, den more deine Schaden und radius erhöhen, up to 100% und 50%."
+    },
+    "Se_Star_Vesper_F_DP_PointCast": {
+      "name": "Reckless Leap",
+      "description": "Erhöht Discipline's Schaden radius um 20% und allows it to be cast without a Ziel."
+    },
+    "Se_Star_Vesper_F_DP_SwitchToMelee": {
+      "name": "Face-to-Face Judgment",
+      "description": "Verringert Discipline's cast range um 50%, but grants 1 additional Aufladungen und betäubt hit Gegner für 1 Sekunden."
+    },
+    "Se_Star_Vesper_F_SE_FullOffense": {
+      "name": "Total Offensive",
+      "description": "Erhöht den Angriffsgeschwindigkeit bonus for Verbündete affected um El's Sanctuary um 50%, und verringert den number of Standardangriffe needed to trigger den 4th Standardangriffe effect um 1. Does not grant Barriere, Rüstung, or Unstoppable effects."
+    },
+    "Se_Star_Vesper_F_SE_Invulnerability": {
+      "name": "Sacred Ground",
+      "description": "Verringert El's Sanctuary's duration um 50%, but grants Invulnerability to Verbündete."
+    },
+    "Se_Star_Vesper_F_SE_PointCast": {
+      "name": "A Touch of Altruism",
+      "description": "Summons El's Sanctuary at a Ziel location stattdessen of Vesper's position. Der Abklingzeit wird verringert um 10% for each Verbündeter und 3% for each Gegner getroffen von den initial blast."
+    },
+    "Se_Star_Vesper_I_ShopDiscount": {
+      "name": "Overwhelming Presence",
+      "description": "Der Gold price of items sold um Händler wird verringert um 10% ."
+    },
+    "Se_Star_Vesper_I_StartGold": {
+      "name": "War Chest",
+      "description": "Erhalte 100 Gold at den start of deine Abenteuers."
+    },
+    "Se_Star_Vesper_L_Armor": {
+      "name": "Trial Survivor",
+      "description": "Erhöht Rüstung um 6 ."
+    },
+    "Se_Star_Vesper_L_ArmorOnLowHealth": {
+      "name": "I Shall Not Waver!",
+      "description": "When Lebenskraft is below 35%, erhalte 10 Rüstung."
+    },
+    "Se_Star_Vesper_L_EmpowerDodgeShield": {
+      "name": "Heavy Armor Mastery",
+      "description": "Erhöht den Barriere amount of Heavy Strike um 45% und extends its duration um 75% ."
+    },
+    "Se_Star_Vesper_L_FireResistance": {
+      "name": "Heart of the Sun",
+      "description": "Verringert Feuerschaden erlitten um 30% und Verbrennung Schaden over time erlitten um 50% ."
+    },
+    "Se_Star_Vesper_L_Health": {
+      "name": "Tough Skin",
+      "description": "Erhöht Maximale Lebenskraft um 80 ."
+    },
+    "Se_Star_Vesper_L_ScalingArmor": {
+      "name": "Rising Faith",
+      "description": "Erhalte 2 Rüstung jedes Mal du erreichst Stufe 5, 10, 15, und 20."
+    },
+    "Se_Star_Vesper_L_ScalingHealth": {
+      "name": "Marvelous Muscles",
+      "description": "Erhöht Maximale Lebenskraft um 15 jedes Mal du Stufenaufstieg."
+    },
+    "Se_Star_Vesper_L_SlowSpeedMoreHealth": {
+      "name": "No Armor Is Too Thick",
+      "description": "Verringert Bewegungstempo um 20%, but increases Maximale Lebenskraft um 14% ."
+    },
+    "Se_Star_Yubar_D_APOnDodge": {
+      "name": "Singularity Reversal",
+      "description": "Casting Dodge grants 12% Zauberkraft für 2 Sekunden."
+    },
+    "Se_Star_Yubar_D_AbilityPower": {
+      "name": "Starry Sky Tapestry",
+      "description": "Erhöht Zauberkraft um 5 ."
+    },
+    "Se_Star_Yubar_D_ADAPWithPenalty": {
+      "name": "Glass Cannon",
+      "description": "Erhalte 5 Angriffskraft und 7 Zauberkraft, but deine Maximale Lebenskraft wird verringert um 15%."
+    },
+    "Se_Star_Yubar_D_APPerLightSkill": {
+      "name": "Starlit Gaze",
+      "description": "Erhalte 2 Zauberkraft for each Lichtschaden Erinnerung du possess."
+    },
+    "Se_Star_Yubar_D_BonusDamageToLight": {
+      "name": "Starlit Eyes",
+      "description": "Erhöht alle Schaden verursacht an Gegner mit 5 or more stacks of Light um 10% ."
+    },
+    "Se_Star_Yubar_D_ConvertADToAP": {
+      "name": "Eclipse",
+      "description": "Erhalte Zauberkraft equal to 25% of deine Angriffskraft."
+    },
+    "Se_Star_Yubar_D_ScalingAP": {
+      "name": "Dazzling Meteor",
+      "description": "Erhalte 3 Zauberkraft jedes Mal du erreichst Stufen 5, 10, 15, und 20."
+    },
+    "Se_Star_Yubar_D_SkillHaste": {
+      "name": "Stellar Flow",
+      "description": "Erhöht Erinnerungstempo um 5 ."
+    },
+    "Se_Star_Yubar_F_CC_DamageOverTime": {
+      "name": "Burning Meteor",
+      "description": "Der impact site of Cataclysm's meteor burns, verursacht 100% of den meteor's Schaden to Gegner über 2 Sekunden."
+    },
+    "Se_Star_Yubar_F_CC_IncreaseAD": {
+      "name": "Choosing Violence",
+      "description": "Cataclysm increases Yubar's Angriffskraft und Angriffsgeschwindigkeit stattdessen of Zauberkraft."
+    },
+    "Se_Star_Yubar_F_CC_LongerDuration": {
+      "name": "Power Focus",
+      "description": "Cataclysm's duration ist erhöht um 50%."
+    },
+    "Se_Star_Yubar_F_CC_MeteorPerLightSkill": {
+      "name": "Galactic Shower",
+      "description": "Der number of meteors das can be dropped mit Cataclysm ist erhöht um 1 for each other Light Erinnerung Yubar possesses."
+    },
+    "Se_Star_Yubar_F_EI_AutoExplosion": {
+      "name": "Unstable Ether",
+      "description": "Ether's Influence's explosion Schaden wird verringert um 60% und can no longer be detonated manually, but it now explodes automatically bei Treffer."
+    },
+    "Se_Star_Yubar_F_EI_BiggerExplosion": {
+      "name": "Explosive Confidence",
+      "description": "Ether's Influence's explosion radius ist erhöht um 25%."
+    },
+    "Se_Star_Yubar_F_EI_NoRootMoreDamage": {
+      "name": "Flow Reversal",
+      "description": "Ether's Influence no longer roots Gegner but its explosion Schaden ist erhöht um 50%."
+    },
+    "Se_Star_Yubar_F_SN_Artillery": {
+      "name": "Mortar",
+      "description": "Erhöht Supernova's cast range um 40% und explosion radius um 30%."
+    },
+    "Se_Star_Yubar_F_SN_AutoExplosion": {
+      "name": "Star Herding",
+      "description": "Supernova can no longer be manually detonated. Channeling is removed und it now automatically explodes when fully charged."
+    },
+    "Se_Star_Yubar_F_SN_DodgeReset": {
+      "name": "Swift Casting",
+      "description": "Casting Supernova resets den Abklingzeit of Dodge."
+    },
+    "Se_Star_Yubar_F_TQ_EssenceCooldown": {
+      "name": "Song of Stars",
+      "description": "Tranquility's Abklingzeit ist erhöht um 2 seconds, but it also verringert den cooldowns of alle essences."
+    },
+    "Se_Star_Yubar_F_TQ_LowerCooldownNoInvul": {
+      "name": "Flexible Thinking",
+      "description": "Tranquility's Abklingzeit wird verringert um 2 seconds, but stattdessen of becoming Invulnerable, du erhalte a Barriere equal to 100% of deine Maximale Lebenskraft die anhält for den duration of den Invulnerability."
+    },
+    "Se_Star_Yubar_F_TQ_ReducedCooldownAndDuration": {
+      "name": "Light Heart",
+      "description": "Tranquility's Abklingzeit wird verringert um 4 seconds, but its Invulnerability duration is also verringert um 40%."
+    },
+    "Se_Star_Yubar_I_DisintegrateDreamDust": {
+      "name": "Dream-born",
+      "description": "When using den Shrine of Dismantling, erhalte additional Traumstaub equal to 50% of den Gold received as a reward."
+    },
+    "Se_Star_Yubar_I_MoreDreamDustWithPenalty": {
+      "name": "God in a Fairy Tale",
+      "description": "Deine Maximale Lebenskraft wird verringert um 10%, but du erhalte 10% increased Traumstaub from alle sources."
+    },
+    "Se_Star_Yubar_I_StarCookie": {
+      "name": "Cookie Baker",
+      "description": "Defeating Gegner has a 0.5% chance to create a Star Cookie. Star Cookies stellt her a small amount of Yubar's Lebenskraft und grant a small amount of Gold und Traumstaub."
+    },
+    "Se_Star_Yubar_L_DodgeChargeWithLongerCooldown": {
+      "name": "Stellar Trace",
+      "description": "Erhalte 1 additional Aufladung for Dodge, but its Abklingzeit ist erhöht um 2 seconds."
+    },
+    "Se_Star_Yubar_L_DodgeCooldownWithShorterRange": {
+      "name": "Peek-a-boo!",
+      "description": "Dodge's Abklingzeit wird verringert um 0.8 seconds, but its travel distance wird verringert um 40% ."
+    },
+    "Se_Star_Yubar_L_DodgeRange": {
+      "name": "Now You See Me",
+      "description": "Der travel distance of Dodge ist erhöht um 33%."
+    },
+    "Se_Star_D_CritUpHitDecay": {
+      "name": "Innate Focus",
+      "description": "Erhalte 25% Crit Chance. Taking Schaden from Gegner permanently verringert this bonus um 1%. Verbrennung Schaden does not trigger this reduction."
+    },
+    "Se_Star_D_RiftFirstCastDamageUp": {
+      "name": "Vanguard Banner",
+      "description": "Every time du travel through a Rift, den Schaden of den first Erinnerung du cast ist erhöht um 90% ."
+    },
+    "Se_Star_I_DismantleDustToBonusGold": {
+      "name": "Paradigm Shift",
+      "description": "Erhalte Gold equal to 15% of den Traumstaub obtained when dismantling Erinnerungen or Essenzen."
+    },
+    "Se_Star_I_ExtraChaosOptionGoldOnUse": {
+      "name": "Ordered Chaos",
+      "description": "Erhöht Chaos options um 1, und grants 15 Gold when using Chaos."
+    },
+    "Se_Star_I_FirstBossGemDrop": {
+      "name": "Someone's Treasure",
+      "description": "Upon defeating den first Heroic Boss, du erhalte 1 Common Essenzen of 10% quality."
+    },
+    "Se_Star_L_IncreaseMaxHealthByGuidance": {
+      "name": "Boundless Blessing of the Great Guide",
+      "description": "Activating a Shrine of Guidance increases Maximale Lebenskraft um 20 . Activating a Blessed Shrine of Guidance increases it um 50 ."
+    },
+    "Se_Star_L_MaxHealthUpHealDown": {
+      "name": "Thick Skin",
+      "description": "Erhöht Maximale Lebenskraft um 15% . Verringert Healing Received um 50%."
+    },
+    "Se_Star_L_PostHitDamageImmune": {
+      "name": "Cowardly Doll",
+      "description": "Erhalte Schaden Immunity für 1 Sekunden after taking Schaden. Triggers once alle 14 Sekunden."
+    }
+  }
+}
